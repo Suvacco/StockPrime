@@ -70,7 +70,7 @@ A empresa é a responsável pelo controle das ações, afinal se trata de contro
 
 Fornecedores
 
-O fornecedore é um usuário que irá fornecer o produto requerido pela empresa.
+O fornecedor é um usuário que irá fornecer o produto requerido pela empresa.
 
 Contadores e transportadoras
 
