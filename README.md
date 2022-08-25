@@ -9,7 +9,6 @@ O projeto consiste em desenvolver uma solução para problemas de controle de es
 * Guilherme da Silveira Cantoni
 * Pedro Luiz Nato Silva
 * Victor Augusto Nascimento
-* Vitor Nunes Calhau
 * Carlos Emanuel Silva e Melo Oliveira
 
 ## Professor
