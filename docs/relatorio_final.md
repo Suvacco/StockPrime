@@ -51,8 +51,10 @@ Nessa conjuntura, a StockPrime busca facilitar o controle de estoque de empresas
 
         1.3.1 Objetivos específicos
 
-Apresente também alguns (pelo menos 2) **objetivos específicos** dependendo de onde você vai querer 
-concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
+Gestão econômica: Possibilidade do usuário ter acesso à sua receita, lucros, custos e resumos de suas vendas;
+Remessas automatizadas: Possibilidade do usuário de se comunicar diretamente com o fornecedor de insumos de sua escolha; 
+Controle de estoque: Registro de entradas e saídas no estoque do usuário, como também a criação de projeções e médias em relação ao mesmo;
+Projeção de danos: Disponibilidade de encontrar informações pertinentes sobre o atual estado de outros setores os quais o usuário dependa. 
 
     1.4 Justificativas
 
