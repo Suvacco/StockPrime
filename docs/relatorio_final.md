@@ -5,7 +5,7 @@
 
 **Pedro Luiz Nato Silva, pedroluizns@hotmail.com**
 
-**Nome completo do Aluno 3, email do aluno 3**
+**Victor Augusto Nascimento, 1401434@sga.pucminas.br**
 
 ---
 
@@ -66,7 +66,7 @@ Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo)
 
 ## 3.1. Análise da situação atual
 
-Apresente uma descrição textual de como os sistemas atuais resolvem o problema que se propoe a resolver.  Caso sua proposta seja inovadora e não existam processos claramente definidos, **apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente**, mesmo que não se utilize tecnologia computacional.
+Os sistemas atuais - um exemplo é a gestão de estoque da PUC MINAS - utilizam da comunicação entre diversos setores para garantir o bom funcionamento dos processos, sem que haja perda ou duplicidade de pedidos/informações. Nosso sistema irá buscar a mesma proposta, fazendo com que diversos setores sejam interativos e o sistema seja organizado.
 
 ## 3.2. Descrição Geral da proposta
 
