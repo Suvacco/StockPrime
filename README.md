@@ -1,17 +1,21 @@
-# Nome do projeto
+# StockPrime
 
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+O projeto consiste em desenvolver uma solução para problemas de controle de estoque de materias primas. Sendo assim, a base do projeto será a criação de um sistema de gerenciamento que permita às empresas ter um maior controle sobre custo, demanda, lucro, despesas e possiveis danos econômicos.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Yan Rodrigues Nalon
+* André Rodrigues de Freitas Faria
+* Guilherme da Silveira Cantoni
+* Pedro Luiz Nato Silva
+* Vitor Nunes Calhau
+* Carlos Emanuel Silva e Melo Oliveira
 
 ## Professor
 
-* Nome completo do professor
+* Cristiano Geraldo Teixeira Silva
+* Felipe Augusto Lima Reis
+* Hugo Bastos de Paula
 
 ## Instruções de utilização
 
