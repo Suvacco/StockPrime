@@ -3,7 +3,7 @@
 
 **Yan Rodrigues Nalon, 1396722@sga.pucminas.br**
 
-**Nome completo do Aluno 2, email do aluno 2**
+**Pedro Luiz Nato Silva, pedroluizns@hotmail.com**
 
 **Nome completo do Aluno 3, email do aluno 3**
 
