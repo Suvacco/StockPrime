@@ -8,6 +8,7 @@ O projeto consiste em desenvolver uma solução para problemas de controle de es
 * André Rodrigues de Freitas Faria
 * Guilherme da Silveira Cantoni
 * Pedro Luiz Nato Silva
+* Victor Augusto Nascimento
 * Vitor Nunes Calhau
 * Carlos Emanuel Silva e Melo Oliveira
 
