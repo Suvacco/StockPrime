@@ -56,8 +56,7 @@ concentrar a sua prática investigativa, ou como você vai aprofundar no seu tra
 
     1.4 Justificativas
 
-Mostre também as **justificativas** para o 
-desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição do trabalho.
+O projeto volta-se para centralizar o controle de estoque visando relacionar dados de outros setores para criar um feedback único do gerenciamento. Sendo assim, a ascensão econômica da corporação é o foco final do sistema, uma vez que será possível prever possíveis prejuízos e realizar uma melhor gestão.
 
 
 ## 2. Participantes do processo
@@ -72,9 +71,9 @@ Fornecedores
 
 O fornecedor é um usuário que irá fornecer o produto requerido pela empresa.
 
-Contadores e transportadoras
+Contadores e Transportadoras
 
-São serviços que poderão ser requisitados pela empresa.
+São serviços que poderão ser requisitados pela empresa e farão parte do processo de gerenciamento.
 
 ## 3. Modelagem do processo de negócio
 
