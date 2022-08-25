@@ -62,29 +62,16 @@ desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição 
 
 ## 2. Participantes do processo
 
-Stakeholder 1
+Os possíveis stakeholders do nosso projeto são empresas, cujo ainda não possuem sistema de controle de estoque, fornecedores, contadores e transportadoras.
 
-Nome: João
-Idade: 29 anos
-Gênero: Masculino
-Cargo atual: Gerente
-Descrição do problema: Está em busca de um software mais intuitivo e organizado para sua empresa.
+Empresa
+A empresa é a responsável pelo controle das ações, afinal se trata de controle de estoque, sendo ela a administradora do sistema e sendo responsável pelo contado entre os demais processos.
 
-Stakeholder 2
+Fornecedores
+Os fornecedores é um usuário que irá fornecer o produto requerido pela empresa.
 
-Nome: Roberto
-Idade: 42 anos
-Gênero: Masculino
-Cargo atual: Empresário
-Descrição do problema: O software atual possui falhas na comunicação com os setores de estoque, apresentando erros de perda ou duplicidade de pedidos/informações.
-
-Stakeholder 3
-
-Nome: Isabella
-Idade: 25 anos
-Gênero: Feminino
-Cargo atual: Microempreendedora
-Descrição do problema: Sente a necessidade de um software para o controle de seu estoque.
+Contadores e transportadoras
+São serviços que poderão ser requisitados pela empresa.
 
 ## 3. Modelagem do processo de negócio
 
