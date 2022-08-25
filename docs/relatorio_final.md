@@ -5,7 +5,7 @@
 
 **Pedro Luiz Nato Silva, pedroluizns@hotmail.com**
 
-**Victor Augusto Nascimento, 1401434@sga.pucminas.br**
+**Victor Augusto Nascimento, victor.agusto@sga.pucminas.br**
 
 ---
 
