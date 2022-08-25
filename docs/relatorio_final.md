@@ -1,7 +1,7 @@
-# TITULO DO PROJETO
+# StockPrime
 
 
-**Nome completo do Aluno 1, email do aluno 1**
+**Yan Rodrigues Nalon, 1396722@sga.pucminas.br**
 
 **Nome completo do Aluno 2, email do aluno 2**
 
@@ -11,8 +11,11 @@
 
 Professores:
 
-** Prof. NOme do Prof 1 **
-** Prof. NOme do Prof 2 **
+**Cristiano Geraldo Teixeira Silva**
+
+**Felipe Augusto Lima Reis**
+
+**Hugo Bastos de Paula**
 
 ---
 
@@ -30,13 +33,11 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ## 1. Introdução
 
-A introdução deve apresentar de dois ou quatro parágrafos de contextualização do trabalho. 
+Em uma indústria onde é preciso gerenciar centenas de contratempos, imprevistos, lucros, perdas e transportes, concentrar toda a informação em um único lugar minimiza todas essas dificuldades. O StockPrime visa criar uma interface de controle de estoques que ajude corporações a terem um melhor gerenciamento de matérias-primas, projetando despesas e cruzando informações para maximizar o lucro. 
 
     1.1 Contextualização
 
-Na **contextualização**, o aluno deve dizer do que se trata o trabalho, em que área ou contexto se insere. 
-A **contextualização** deve ser desenvolvida de algo mais genérico para algo mais específico. 
-A citação de pesquisas quantitativas é bem aceita aqui (corretamente referenciadas).
+A indústria do setor secundário enfrenta diariamente um número incontável de variáveis que afetam diferentes áreas do ramo, seja positivamente como negativamente. Portanto, centenas de corporações investem em sistemas de gerenciamento que visam otimizar os processos e controlar o fluxo de mercadorias nas entradas e saídas. A final, o monitoramento incorreto e não projetado pode ocasionar em prejuízos comerciais, como o sobrestoque ou a falta de insumos e por consequência a instabilidade econômica da corporação, colocando-a em uma situação de controle de danos.
 
     1.2 Problema
 
