@@ -5,7 +5,9 @@
 
 **Pedro Luiz Nato Silva, pedroluizns@hotmail.com**
 
-**Victor Augusto Nascimento, victor.agusto@sga.pucminas.br**
+**Victor Augusto Nascimento, 1401434@sga.pucminas.br**
+
+**Guilherme da Silveira Cantoni,gcantoni@sga.pucminas.br**
 
 ---
 
@@ -33,11 +35,11 @@ mostrar algum resultado relevante do trabalho (até 10 linhas)._
 
 ## 1. Introdução
 
-Em uma indústria onde é preciso gerenciar centenas de contratempos, imprevistos, lucros, perdas e transportes, concentrar toda a informação em um único lugar minimiza todas essas dificuldades. O StockPrime visa criar uma interface de controle que ajude corporações a terem um melhor gerenciamento de seus estoques e inventários, projetando despesas, cruzando informações para maximizar o lucro e prevendo prejuízos. 
+Em uma indústria onde é preciso gerenciar centenas de contratempos, imprevistos, lucros, perdas e transportes, concentrar toda a informação em um único lugar minimiza todas essas dificuldades. O StockPrime visa criar uma interface de controle de estoques que ajude corporações a terem um melhor gerenciamento de matérias-primas, projetando despesas e cruzando informações para maximizar o lucro. 
 
     1.1 Contextualização
 
-A indústria de controle de estoques enfrenta diariamente um número incontável de variáveis que afetam diferentes áreas do ramo, seja positivamente como negativamente. Portanto, centenas de corporações investem em sistemas de gerenciamento que visam otimizar os processos e controlar o fluxo de mercadorias nas entradas e saídas. Sendo assim, o monitoramento incorreto e mal projetado pode ocasionar em danos comerciais como o sobrestoque ou a falta de insumos, levando assim à instabilidade econômica da corporação e colocando-a em uma situação de controle de prejuízos.
+A indústria do setor secundário enfrenta diariamente um número incontável de variáveis que afetam diferentes áreas do ramo, seja positivamente como negativamente. Portanto, centenas de corporações investem em sistemas de gerenciamento que visam otimizar os processos e controlar o fluxo de mercadorias nas entradas e saídas. A final, o monitoramento incorreto e não projetado pode ocasionar em prejuízos comerciais, como o sobrestoque ou a falta de insumos e por consequência a instabilidade econômica da corporação, colocando-a em uma situação de controle de danos.
 
     1.2 Problema
 
@@ -45,7 +47,7 @@ A indústria de controle de estoques enfrenta diariamente um número incontável
 
     1.3 Objetivo geral
 
-Nessa conjuntura, a StockPrime busca facilitar o controle de estoque de empresas - com foco no mercado comercial - de forma a permitir uma gestão mais prática do estado do inventário, seja envolvendo vendas online ou físicas, de forma simples e intuitiva.
+Nessa conjuntura, a StockPrime busca facilitar o controle de estoque de empresas - com o foco em empresas voltadas para o setor secundário - de forma a permitir uma atualização mais prática do atual estado do estoque, envolvendo vendas online e físicas, de forma simples e intuitiva.
 
         1.3.1 Objetivos específicos
 
@@ -60,7 +62,29 @@ desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição 
 
 ## 2. Participantes do processo
 
-Apresente aqui os diferentes perfis dos Stakeholders (participantes do processo) chave do sistema. Diversas são as informações que podem ser relevantes para a definição dos perfis dos usuários, tais como idade, gênero, aspectos culturais, nível de educação, entre outros. A pesquisa de mercado pode ser uma ferramenta poderosa para se identificar e caracterizar os perfis de usuários.
+Stakeholder 1
+
+Nome: João
+Idade: 29 anos
+Gênero: Masculino
+Cargo atual: Gerente
+Descrição do problema: Está em busca de um software mais intuitivo e organizado para sua empresa.
+
+Stakeholder 2
+
+Nome: Roberto
+Idade: 42 anos
+Gênero: Masculino
+Cargo atual: Empresário
+Descrição do problema: O software atual possui falhas na comunicação com os setores de estoque, apresentando erros de perda ou duplicidade de pedidos/informações.
+
+Stakeholder 3
+
+Nome: Isabella
+Idade: 25 anos
+Gênero: Feminino
+Cargo atual: Microempreendedora
+Descrição do problema: Sente a necessidade de um software para o controle de seu estoque.
 
 ## 3. Modelagem do processo de negócio
 
