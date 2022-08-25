@@ -65,12 +65,15 @@ desenvolvimento do seu trabalho e, caso deseje, desta-que alguma contribuição 
 Os possíveis stakeholders do nosso projeto são empresas, cujo ainda não possuem sistema de controle de estoque, fornecedores, contadores e transportadoras.
 
 Empresa
+
 A empresa é a responsável pelo controle das ações, afinal se trata de controle de estoque, sendo ela, a administradora do sistema e sendo responsável pelo contado entre os demais processos.
 
 Fornecedores
+
 O fornecedore é um usuário que irá fornecer o produto requerido pela empresa.
 
 Contadores e transportadoras
+
 São serviços que poderão ser requisitados pela empresa.
 
 ## 3. Modelagem do processo de negócio
