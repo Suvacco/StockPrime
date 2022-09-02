@@ -87,7 +87,7 @@ Os sistemas atuais - um exemplo é a gestão de estoque da PUC MINAS - utilizam 
 
 ## 3.2. Descrição Geral da proposta
 
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
+A proposta da StockPrime é implementar um sistema que auxilie empresas no controle de seu estoque e, desse modo, evitar problemas que advem da má gestão dos produtos armazenados e garantir o funcionamento do negócio realizado pela empresa. Além disso, a solução visa melhorias tanto na área de gestão financeira, quanto na comunicação e na prevenção de danos.
 
 ## 3.3. Modelagem dos Processos
 
