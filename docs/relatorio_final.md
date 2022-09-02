@@ -10,6 +10,7 @@
 **Guilherme da Silveira Cantoni,gcantoni@sga.pucminas.br**
 
 **Carlos Emanuel Silva e Melo Oliveira, carlos.oliveira.1405439@sga.pucminas.br**
+
 ---
 
 Professores:
