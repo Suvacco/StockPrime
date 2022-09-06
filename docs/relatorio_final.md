@@ -11,7 +11,7 @@
 
 **Carlos Emanuel Silva e Melo Oliveira, carlos.oliveira.1405439@sga.pucminas.br**
 
-**André Rodrigues de Freitas Faria, 923006@sga.pucminas.br
+**André Rodrigues de Freitas Faria, 923006@sga.pucminas.br**
 
 ---
 
