@@ -51,7 +51,7 @@ A indústria do setor secundário enfrenta diariamente um número incontável de
 
     1.3 Objetivo geral
 
-Nessa conjuntura, a StockPrime busca facilitar o controle de estoque de empresas - com foco no mercado comercial - de forma a permitir uma gestão mais prática do estado do inventário, seja envolvendo vendas online ou físicas, de forma simples e intuitiva.
+Nessa conjuntura, a StockPrime busca facilitar o controle de estoque - com foco no mercado comercial - de forma a permitir uma gestão prática do inventário do usuário.
 
         1.3.1 Objetivos específicos
 
