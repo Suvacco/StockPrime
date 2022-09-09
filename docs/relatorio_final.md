@@ -97,7 +97,8 @@ A proposta da StockPrime é implementar um sistema que auxilie empresas no contr
 
 O usuário entra no sistema e solicita um produto que necessita, após isso a distribuidora entrega o produto.
 
-![new-bpmn-diagram](https://user-images.githubusercontent.com/96486178/189249977-51e3621a-0e92-4ab5-9359-1cb7b059d1a6.png)
+
+![new-bpmn-diagram](https://user-images.githubusercontent.com/96486178/189250177-a27b7232-4ee3-4bdd-9c6a-3f0477ef38cf.png)
 
 
 
