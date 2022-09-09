@@ -93,11 +93,12 @@ A proposta da StockPrime é implementar um sistema que auxilie empresas no contr
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – NOME DO PROCESSO
+### 3.3.1 Processo 1 – Solicitar Produto
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN.
+O usuário entra no sistema e solicita um produto que necessita, após isso a distribuidora entrega o produto.
 
-![Exemplo de um Modelo BPMN do PROCESSO 1](imagens/process.png "Modelo BPMN do Processo 1.")
+![new-bpmn-diagram](https://user-images.githubusercontent.com/96486178/189249977-51e3621a-0e92-4ab5-9359-1cb7b059d1a6.png)
+
 
 
 ### 3.3.2 Processo 2 – NOME DO PROCESSO
