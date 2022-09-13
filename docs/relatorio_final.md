@@ -93,20 +93,29 @@ A proposta da StockPrime é implementar um sistema que auxilie empresas no contr
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – Solicitar Produto
+### 3.3.1 Processo 1 – Processo de Reestoque
 
-O usuário entra no sistema e solicita um produto que necessita, após isso a distribuidora entrega o produto.
+![Processo de Reestoque](https://user-images.githubusercontent.com/21000046/189994511-7d738e76-efe8-4116-a9e8-e6802bb51b9b.png)
 
+### 3.3.2 Processo 2 – Processo de Atualização do Estoque
 
-![new-bpmn-diagram](https://user-images.githubusercontent.com/96486178/189250177-a27b7232-4ee3-4bdd-9c6a-3f0477ef38cf.png)
+![Atualização de Estoque](https://user-images.githubusercontent.com/21000046/189994533-35d90d15-7356-4bb9-96c3-7559a85a659a.png)
 
+### 3.3.3 Processo 3 – Processo de Contrato
 
+![Processo de Contrato](https://user-images.githubusercontent.com/21000046/189994546-393498ba-1840-4936-bf34-389ade89e9e6.png)
 
-### 3.3.2 Processo 2 – NOME DO PROCESSO
+### 3.3.4 Processo 4 – Processo de Transporte
 
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
+![Processo de Transporte](https://user-images.githubusercontent.com/21000046/189994553-981b6213-8a62-454b-b5d1-1d2e0483e374.png)
 
-![Exemplo de um Modelo BPMN do PROCESSO 2](imagens/call_process.png "Modelo BPMN do Processo 2.")
+### 3.3.5 Processo 5 – Processo de Feedback Financeiro
+
+![Feedback Financeiro](https://user-images.githubusercontent.com/21000046/189994639-33a7e856-f5b7-4fa0-8d74-bc3fc8bfc2e7.png)
+
+### 3.3.6 Processo 6 – Processo de Quebra de Contrato
+
+![Processo de Quebra de Contrato](https://user-images.githubusercontent.com/21000046/189994667-ba1820dc-2342-4ed8-aac6-46056a2342da.png)
 
 ## 4. Projeto da Solução
 
