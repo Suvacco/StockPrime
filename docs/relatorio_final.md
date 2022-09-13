@@ -55,15 +55,15 @@ A StockPrime tem como objetivo geral facilitar controles de estoque, melhorar a 
 
     1.3.1 Objetivos específicos
 
-Gestão econômica: Possibilidade do usuário ter acesso à sua receita, lucros, custos e resumos de suas vendas;
-Remessas automatizadas: Possibilidade do usuário de se comunicar diretamente com o fornecedor de insumos de sua escolha; 
-Controle de estoque: Registro de entradas e saídas no estoque do usuário, como também a criação de projeções e médias em relação ao mesmo;
-Projeção de danos: Disponibilidade de encontrar informações pertinentes sobre o atual estado de outros setores os quais o usuário dependa. 
+Gestão Econômica: Para minimizar custos e prejuizos, temos como objetivo o fornecimento constante de uma avaliação da situação financeira atual do cliente. Sendo assim, o usuário terá acesso à um resumo contendo seus custos, entradas, saídas, receitas e projeções de possíveis prejuízos.
+
+Automatização de Restoque: A fim de melhorar a eficiência do processo de reestoque, a StockPrime visa intermediar as relações entre os fornecedores e os clientes. Dessa forma, o inventário sempre estará disponível para retirada de produtos e o reestoque mediante ao consumo do mesmo; 
+
+Controle de Estoque: Registro de entradas e saídas de produtos no estoque do usuário. Tem como objetivo proporcionar um controle preciso da disponibilidade do conteúdo, catalogando entradas e saídas para fornecer uma gestão controlada.
 
     1.4 Justificativas
 
-O projeto volta-se para centralizar o controle de estoque visando relacionar dados de outros setores para criar um feedback único do gerenciamento. Sendo assim, a ascensão econômica da corporação é o foco final do sistema, uma vez que será possível prever possíveis prejuízos e realizar uma melhor gestão.
-
+A ascensão econômica da corporação cliente é o foco principal da StockPrime. Sendo assim, uma gestão ecônomica que integra inúmeras variáveis em um só local e cria projeções de possiveis prejuizos compõem a combinação perfeita para a maximização do lucro corporativo. Não só isso como a gestão precisa do controle de estoque exerce uma função crucial na otimização da gestão do inventário, prevenindo a perda de investimentos com fornecimento desnecessário.
 
 ## 2. Participantes do processo
 
