@@ -67,19 +67,23 @@ A ascensão econômica da corporação cliente é o foco principal da StockPrime
 
 ## 2. Participantes do processo
 
-Os possíveis stakeholders do nosso projeto são empresas, cujo ainda não possuem sistema de controle de estoque, fornecedores, contadores e transportadoras.
+Os participantes do projeto são as empresas cujo não possuem um sistema de controle de estoque, a central de controle de estoque, fornecedores e transportadoras.
 
-Empresa
+Controladora de Estoque
 
-A empresa é a responsável pelo controle das ações, afinal se trata de controle de estoque, sendo ela, a administradora do sistema e sendo responsável pelo contado entre os demais processos.
+É a parte responsável pelo controle das intermediações entre as outras partes e gerente da gestão de estoque.
 
 Fornecedores
 
-O fornecedor é um usuário que irá fornecer o produto requerido pela empresa.
+O fornecedor é um participante do processo que tem como função receber solicitações de reestoque e realizar todos os processos burocráticos para que um pedido seja enviado.
 
-Solicitantes
+Transportadora
 
-O solicitante é o usuário que irá solicitar o processo de estoque da empresa.
+O trabalho da transportadora é levar o produto do fornecedor até o cliente, sendo responsável pela integridade do produto durante o percurso, disponibilizar recursos caso existam necessidades especiais no transporte e notificar os outros participantes a respeito de qualquer atualização no processo.
+
+Cliente
+
+O cliente da StockPrime são empresas que desejam um controle de estoque, gestão econômica otimizada e uma automação dos processos gerais.
 
 ## 3. Modelagem do processo de negócio
 
