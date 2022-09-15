@@ -69,21 +69,21 @@ A ascensão econômica da corporação cliente é o foco principal da StockPrime
 
 Os participantes do projeto são as empresas cujo não possuem um sistema de controle de estoque, a central de controle de estoque, fornecedores e transportadoras.
 
-Controladora de Estoque
+- Fornecedores
 
-É a parte responsável pelo controle das intermediações entre as outras partes e gerente da gestão de estoque.
+O fornecedor tem como função receber solicitações de reestoque e realizar todos os processos burocráticos para que um pedido seja enviado.
 
-Fornecedores
+- Solicitante
 
-O fornecedor é um participante do processo que tem como função receber solicitações de reestoque e realizar todos os processos burocráticos para que um pedido seja enviado.
+Os solicitantes são os clientes da StockPrime que desejam adicionar, fazer retiradas ou reestocar o seu inventário.
 
-Transportadora
+- Transportadora
 
 O trabalho da transportadora é levar o produto do fornecedor até o cliente, sendo responsável pela integridade do produto durante o percurso, disponibilizar recursos caso existam necessidades especiais no transporte e notificar os outros participantes a respeito de qualquer atualização no processo.
 
-Cliente
+- Controle de Estoque
 
-O cliente da StockPrime são empresas que desejam um controle de estoque, gestão econômica otimizada e uma automação dos processos gerais.
+É a parte responsável pelas intermediações entre os outros participantes do processo e administrador da gestão de estoque.
 
 ## 3. Modelagem do processo de negócio
 
