@@ -77,9 +77,9 @@ Fornecedores
 
 O fornecedor é um usuário que irá fornecer o produto requerido pela empresa.
 
-Contadores e Transportadoras
+Solicitantes
 
-São serviços que poderão ser requisitados pela empresa e farão parte do processo de gerenciamento.
+O solicitante é o usuário que irá solicitar o processo de estoque da empresa.
 
 ## 3. Modelagem do processo de negócio
 
