@@ -101,6 +101,9 @@ A proposta da StockPrime é implementar um sistema que permita com que nossos cl
 
 ### 3.3.2 Processo 2 - Processo de Transporte ![Processo de Transporte](https://user-images.githubusercontent.com/21000046/189994553-981b6213-8a62-454b-b5d1-1d2e0483e374.png)
 
+### 3.3.3 Processo 3 - Processo de Feedback Financeiro![Processo](https://user-images.githubusercontent.com/96486178/190534355-aff97c9d-39fc-4764-9f6c-dfc971f2a937.png)
+
+
 ## 4. Projeto da Solução
 
 ### 4.1. Detalhamento das atividades
