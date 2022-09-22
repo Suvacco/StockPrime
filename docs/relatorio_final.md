@@ -89,11 +89,11 @@ O trabalho da transportadora é levar o produto do fornecedor até o cliente, se
 
 ## 3.1. Análise da situação atual
 
-Os sistemas atuais - um exemplo é a gestão de estoque da PUC MINAS - utilizam da comunicação entre diversos setores para garantir o bom funcionamento dos processos, buscando maximizar o processo de estocagem. Apesar disso a necessidade de contato entre muitos setores pode vir a se tornar um empecilho - principalmente para pequenas empresas - de forma a causar problemas, prejuízos e estresse para os envolvidos. Nosso sistema buscará diminuir a necessidade de comunicação entre diversos setores, trabalhando no meio virtual de forma a automatizar processos e encurtar distâncias. 
+Os atuais sistemas inteligentes que fazem a gestão de estoque utilizam da comunicação entre diversos setores para garantir o bom funcionamento dos processos, buscando maximizar a otimização. No entanto, existem ínviduos - majoritariamente pequenas empresas - que não vêem necessidades em automatizar o seu trabalho, portanto, realizam toda a administração manualmente. Consequentemente, os mesmos tornam-se suscetíveis a falhas catastróficas e prejuízos imensuráveis caso exista uma inconsistência ou um problema com o sistema.
 
 ## 3.2. Descrição Geral da proposta
 
-A proposta da StockPrime é implementar um sistema que permita com que nossos clientes tenham um contato direto com seus estoques através de nossa plataforma, tendo acesso à situação do estoque em tempo real, alertas caso seja necessário realizar um reestoque, histórico de estoques passados e feedbacks financeiros de gastose lucros.
+A proposta da StockPrime é implementar um sistema que permita nossos clientes terem um contato direto com seus estoques através de nossa plataforma de controle, tendo acesso à gestão e monitoramento em tempo real, automatização de reestoque, análises financeiras do sistema e histórico de entradas e retiradas.
 
 ## 3.3. Modelagem dos Processos
 
