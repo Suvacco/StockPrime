@@ -93,7 +93,7 @@ Os atuais sistemas inteligentes que fazem a gestão de estoque utilizam da comun
 
 ## 3.2. Descrição Geral da proposta
 
-A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento eficaz de estoques, provendo acesso à gestão e acompanhamento em tempo real, automatização de reestoque, análises e resumos financeiros e um monitoramento de entradas e retiradas.
+A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento eficaz de estoques, provendo acesso à gestão e acompanhamento em tempo real, automatização de reestoque, finanças e monitoramento de entradas e retiradas.
 
 ## 3.3. Modelagem dos Processos
 
