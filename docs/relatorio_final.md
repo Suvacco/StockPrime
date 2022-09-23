@@ -97,12 +97,17 @@ A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento ef
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo 1 – Processo de Requisição e Formalização do Contrato ![189994546-393498ba-1840-4936-bf34-389ade89e9e6](https://user-images.githubusercontent.com/104280113/190533657-10fbb787-0492-4c47-bf0d-1b7841ce4341.png)
+### 3.3.1 Processo de Requisição e Formalização do Contrato ![189994546-393498ba-1840-4936-bf34-389ade89e9e6](https://user-images.githubusercontent.com/104280113/190533657-10fbb787-0492-4c47-bf0d-1b7841ce4341.png)
 
-### 3.3.2 Processo 2 - Processo de Transporte ![Processo de Transporte](https://user-images.githubusercontent.com/21000046/189994553-981b6213-8a62-454b-b5d1-1d2e0483e374.png)
+### 3.3.2 Processo de Transporte ![Processo de Transporte](https://user-images.githubusercontent.com/21000046/189994553-981b6213-8a62-454b-b5d1-1d2e0483e374.png)
 
-### 3.3.3 Processo 3 - Processo de Feedback Financeiro![Processo](https://user-images.githubusercontent.com/96486178/190534355-aff97c9d-39fc-4764-9f6c-dfc971f2a937.png)
+### 3.3.3 Processo de Feedback Financeiro![Processo](https://user-images.githubusercontent.com/96486178/190534355-aff97c9d-39fc-4764-9f6c-dfc971f2a937.png)
 
+### 3.3.4 Processo de Reestoque ![Processo de Reestoque](https://user-images.githubusercontent.com/21000046/191871402-011e30fa-9ddf-4abd-a4e7-feb2e98133e9.png)
+
+### 3.3.5 Processo de Quebra de Contrato ![Processo de Quebra de Contrato](https://user-images.githubusercontent.com/21000046/191871461-b1de28f6-4268-423a-8dc8-256a52d68d86.png)
+
+### 3.3.6 Processo de Atualização de Estoque ![Atualização de Estoque](https://user-images.githubusercontent.com/21000046/191871486-db4211b6-c692-44c8-946a-cbf8f8cb8d65.png)
 
 ## 4. Projeto da Solução
 
