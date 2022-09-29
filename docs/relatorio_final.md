@@ -105,7 +105,11 @@ A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento ef
 
 ### 3.3.4 Processo de Reestoque ![Processo de Reestoque](https://user-images.githubusercontent.com/21000046/191871402-011e30fa-9ddf-4abd-a4e7-feb2e98133e9.png)
 
-### 3.3.5 Processo de Quebra de Contrato ![Processo de Quebra de Contrato](https://user-images.githubusercontent.com/21000046/191871461-b1de28f6-4268-423a-8dc8-256a52d68d86.png)
+### 3.3.5 Processo de Quebra de Contrato 
+
+O processo Quebra de Contrato desecreva a analise de um pedido de recisão de contrato e quais as ações toamdas de acordo com cada razão para o rompimento do contrato.
+
+![Processo de Quebra de Contrato](imagens/quebra-contrato "Processo de Quebra de Contrato")
 
 ### 3.3.6 Processo de Atualização de Estoque ![Atualização de Estoque](https://user-images.githubusercontent.com/21000046/191871486-db4211b6-c692-44c8-946a-cbf8f8cb8d65.png)
 
