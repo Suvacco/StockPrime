@@ -98,8 +98,7 @@ A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento ef
 ## 3.3. Modelagem dos Processos
 
 ### 3.3.1 Processo de Requisição e Formalização do Contrato 
-O processo de requisição e formalização do contrato garante que a Stockprime forneça o produto da forma correta e que o cliente não abuse das normas imposta pela nossa empresa.
-![189994546-393498ba-1840-4936-bf34-389ade89e9e6](https://user-images.githubusercontent.com/104280113/190533657-10fbb787-0492-4c47-bf0d-1b7841ce4341.png)
+O processo de requisição e formalização do contrato garante que a Stockprime forneça o produto da forma correta e que o cliente não abuse das normas imposta pela nossa empresa.![Processo Contrato](https://user-images.githubusercontent.com/21000046/193168979-96a7a270-f20a-4a49-bac1-dc4aefc25499.jpeg)
 
 ### 3.3.2 Processo de Envio e Transporte
 
