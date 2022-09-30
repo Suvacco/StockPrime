@@ -101,11 +101,11 @@ A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento ef
 O processo de requisição e formalização do contrato garante que a Stockprime forneça o produto da forma correta e que o cliente não abuse das normas imposta pela nossa empresa.
 ![189994546-393498ba-1840-4936-bf34-389ade89e9e6](https://user-images.githubusercontent.com/104280113/190533657-10fbb787-0492-4c47-bf0d-1b7841ce4341.png)
 
-### 3.3.2 Processo de Transporte
+### 3.3.2 Processo de Envio e Transporte
 
-O processo de transporte retrata todos os passos que ocorrem para que um determinado produto seja entregue ao cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio.
-![Processo de Transporte](https://user-images.githubusercontent.com/21000046/193155075-803ef92f-b1c8-4a8f-9772-90f74f781c7c.jpeg)
-
+O processo de transporte retrata todos os passos que ocorrem para que um determinado produto seja entregue ao cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. Além do mais, também há um subprocesso de adesão ao seguro caso o solicitante tenha algum problema com o transporte e deseja incluir uma garantia de danos para evitar transtornos. 
+![Processo de Envio e Transporte](https://user-images.githubusercontent.com/21000046/193162811-38cf100e-4d34-445c-9957-05d796e91bae.jpeg)
+ 
 ### 3.3.3 Processo de Feedback Financeiro![Processo](https://user-images.githubusercontent.com/96486178/190534355-aff97c9d-39fc-4764-9f6c-dfc971f2a937.png)
 
 ### 3.3.4 Processo de Reestoque ![Processo de Reestoque](https://user-images.githubusercontent.com/21000046/191871402-011e30fa-9ddf-4abd-a4e7-feb2e98133e9.png)
