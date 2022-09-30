@@ -107,7 +107,10 @@ O processo de transporte retrata todos os passos que ocorrem para que um determi
  
 ### 3.3.3 Processo de Feedback Financeiro![Processo](https://user-images.githubusercontent.com/96486178/190534355-aff97c9d-39fc-4764-9f6c-dfc971f2a937.png)
 
-### 3.3.4 Processo de Reestoque ![Processo de Reestoque](https://user-images.githubusercontent.com/21000046/191871402-011e30fa-9ddf-4abd-a4e7-feb2e98133e9.png)
+### 3.3.4 Processo de Reestoque
+
+O processo de Reestoque descreve os passos que ocorrem desde a checagem de estoque, visualização se há a disponibilidade de um produto e caso não esteja, fazer a requisição de mais produtos para o estoque. Além disso, possui também um subprocesso de calculo de orçamento, onde ele busca pelos melhores preços nas distribuidoras para disponibilizar o melhor orçamento ao cliente.
+![Reestoque](https://user-images.githubusercontent.com/104282001/193195602-5f53d3fc-398f-4f38-8590-daa29d8358f6.png)
 
 ### 3.3.5 Processo de Quebra de Contrato 
 
