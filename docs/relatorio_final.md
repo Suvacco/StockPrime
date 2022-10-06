@@ -168,11 +168,17 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 **Informa problema na entrega**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Deta da ocorrência | Data | Não nulo | 00-00-0000 |
+| --- | --- | --- | --- |
 | Nome do solicitante | Caixa de texto | Não nulo | --- |
+| --- | --- | --- | --- |
 | Detalhes do problema | Caixa de texto | Não nulo | --- |
+| --- | --- | --- | --- |
 | Numero da NFE | Caixa de texto | Não nulo | --- |
+| --- | --- | --- | --- |
 | Nome do fornecedor | Caixa de texto | Não nulo | --- |
+|    |    |     |
 
 **Confirma chegada do pedido**
 
