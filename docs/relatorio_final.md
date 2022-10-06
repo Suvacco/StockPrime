@@ -170,50 +170,54 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Deta da ocorrência | Data | Não nulo | 00-00-0000 |
-| --- | --- | --- | --- |
 | Nome do solicitante | Caixa de texto | Não nulo | --- |
-| --- | --- | --- | --- |
 | Detalhes do problema | Caixa de texto | Não nulo | --- |
-| --- | --- | --- | --- |
 | Numero da NFE | Caixa de texto | Não nulo | --- |
-| --- | --- | --- | --- |
 | Nome do fornecedor | Caixa de texto | Não nulo | --- |
 |    |    |     |
 
 **Confirma chegada do pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Confirmar recebimento do pedido | Seleção única | Não nulo | --- |
 | Data de chegada | Data | Não nulo | --- |
 | Hora de chegada | Número | Não nulo | --- |
 | Nome do fornecedor | Caixa de texto | Não nulo | --- |
 | Numero da NFE | Caixa de texto | Não nulo | --- |
+|    |    |     |
 
 **Registra inicio do processo de transporte**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Confirmar saída do pedido | Seleção única | --- | --- |
 | Número da NFE | Caixa de texto | Não nulo | --- |
 | Data de saída | Data | Não nulo | 00-00-0000 |
 | Hora de saída | Número | Não nulo | --- |
 | Nome da transportadora | Caixa de Texto | Não nulo | --- |
+|    |    |     |
 
 **Atualiza status do pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Atualizar pedido | Seleção múltipla | Não nulo | Em separação |
 | Número da NFE | Caixa de texto | Não nulo | --- |
 | Nome da transportadora | Caixa de Texto | Não nulo | --- |
+|    |    |     |
 
 **Dar baixa no pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
 | Número da NFE | Caixa de texto | Não nulo | --- |
 | Nome da transportadora | Caixa de Texto | Não nulo | --- |
 | Nome do solicitante | Caixa de texto | Não nulo | --- |
 | Nome do fornecedor | Caixa de texto | Não nulo | --- |
 | Data de chegada | Data | Não nulo | --- |
 | Hora de chegada | Número | Não nulo | --- |
+|    |    |     |
 
 ### Processo 5 - Quebra de Contrato
 
