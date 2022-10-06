@@ -100,11 +100,11 @@ A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento ef
 ### 3.3.1 Processo de Requisição e Formalização do Contrato 
 O processo de requisição e formalização do contrato garante que a Stockprime forneça o produto da forma correta e que o cliente não abuse das normas imposta pela nossa empresa. O subprocesso diz sobre os processos que devem seguir para verificar se o CNPJ é válido para o fechamento do contrato. ![Processo Contrato](https://user-images.githubusercontent.com/21000046/193168979-96a7a270-f20a-4a49-bac1-dc4aefc25499.jpeg)
 
-### 3.3.2 Processo de Envio e Transporte
+### 3.3.2 Processo de Fornecimento
 
-O processo de transporte retrata todos os passos que ocorrem para que um determinado produto seja entregue ao cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. Além do mais, também há um subprocesso de adesão ao seguro caso o solicitante tenha algum problema com o transporte e deseja incluir uma garantia de danos para evitar transtornos. 
-![Processo de Envio e Transporte](https://user-images.githubusercontent.com/21000046/193162811-38cf100e-4d34-445c-9957-05d796e91bae.jpeg)
- 
+O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.
+![Processo de Transporte Corrigido](https://user-images.githubusercontent.com/21000046/194423653-243452f6-1108-49f0-b370-c3b58254fded.png)
+
 ### 3.3.3 Processo de Feedback Financeiro
 O processo de Feedback Financeiro descreve os passos que ocorrem para que o cliente - através dos dados armazenados sobre a movimentação de seu estoque - receba uma análise de lucros e prejuízos em suas transações quando solicitado.  
 ![new-bpmn-diagram](https://user-images.githubusercontent.com/104280113/193341745-74977ba7-ca1e-406d-bc45-e719c81626c6.png)
