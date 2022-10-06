@@ -165,10 +165,28 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 ### Processo 5 -Quebra de contrato
 
-**Solicitar quebra dde contrato**
+**Solicitar quebra de contrato**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
-|Comunicado de rescisão| Arquivo| Formato do arquivo: pdf| ---|
+| Comunicado de rescisão | Arquivo | Formato do arquivo: pdf | --- |
+|    |    |    |
+
+**Norificar fim do contrato**
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| Informar fim do contrato | Área de texto | Não Nulo| --- |
+|    |    |    |    
+
+**Calcular multa**
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| Valor do contrato | Número | Não Nulo | 0,00 |
+| % da multa | Número | Não Nulo | 0,00 | 
+| Valor da multa | Número | Não Nulo | 0,00 | 
+|    |    |    |
+
+**Desvincular cliente**
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| Cliente a ser desvinculado | Seleção única | Não Nulo | --- |
+|    |    |    |
 
 ### 4.2. Tecnologias
 
