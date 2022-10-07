@@ -131,18 +131,36 @@ O cliente solicita uma atualização no estoque e deve dizer se é uma entrada o
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – NOME DO PROCESSO
+#### Processo 1 – Atualização de estoque
 
-**Nome da atividade 1**
+**Fazer Solicitação**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-| ***Exemplo:***  |    |     |
-| login | Caixa de Texto | formato de e-mail |  |
-| senha | Caixa de Texto | mínimo de 8 caracteres |   |
+| Produto |Seleção única|  |  |
 
-**Nome da atividade 2**
+**Entrada de produto**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Adicionar produto | Múltipla escolha|  |  |  
+|  Quantidade  |  Número  |    | 1 |
+
+**Catalogar produto**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Caixa de texto |  | Letras  |
+| Quantidade   | Número    | Número inteiro    | 1 |
+
+**Retirar produto do estoque**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Escolher produto |Múltipla escolha|  |  |
+|  Quantidade  |    |   1  |
+
+**Dar baixa no sistema**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
