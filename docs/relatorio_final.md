@@ -239,6 +239,29 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Hora de chegada | Número | Não nulo | --- |
 |    |    |     |
 
+### Processo 3 - Feedback Financeiro
+
+**Solicitar feedback financeiro**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Solicitação de feedback financeiro | Seleção única | --- | --- |
+
+**Cálculo financeiro**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Compras de X produto | Número | Não nulo | 0 |
+| Preço de compra para X produto | Número | Não nulo | 0 |
+| Vendas de X produto | Número | Não nulo | 0 |
+| Preço de venda para X produto | Número | Não nulo | 0 |
+
+**Resultado do feedback financeiro**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Lucro/Prejuízo | Número | Não nulo | 0 |
+
 ### Processo 5 - Quebra de Contrato
 
 **Solicitar quebra de contrato**
