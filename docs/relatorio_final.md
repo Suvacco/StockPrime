@@ -102,8 +102,7 @@ O processo de requisição e formalização do contrato garante que a Stockprime
 
 ### 3.3.2 Processo de Fornecimento
 
-O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.
-![Processo de Transporte Corrigido](https://user-images.githubusercontent.com/21000046/194423653-243452f6-1108-49f0-b370-c3b58254fded.png)
+O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.![Processo de Transporte Corrigido](https://user-images.githubusercontent.com/21000046/194676567-d4ae6991-3355-4e17-bdc2-6cffc678c97f.png)
 
 ### 3.3.3 Processo de Feedback Financeiro
 O processo de Feedback Financeiro descreve os passos que ocorrem para que o cliente - através dos dados armazenados sobre a movimentação de seu estoque - receba uma análise de lucros e prejuízos em suas transações quando solicitado.  
@@ -196,6 +195,17 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Nome do fornecedor | Caixa de texto | Não nulo | --- |
 |    |    |     |
 
+**Informa dano no pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Deta da ocorrência | Data | Não nulo | 00-00-0000 |
+| Nome do solicitante | Caixa de texto | Não nulo | --- |
+| Detalhes do dano | Caixa de texto | Não nulo | --- |
+| Numero da NFE | Caixa de texto | Não nulo | --- |
+| Nome do fornecedor | Caixa de texto | Não nulo | --- |
+|    |    |     |
+
 **Confirma chegada do pedido**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
@@ -216,27 +226,6 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Data de saída | Data | Não nulo | 00-00-0000 |
 | Hora de saída | Número | Não nulo | --- |
 | Nome da transportadora | Caixa de Texto | Não nulo | --- |
-|    |    |     |
-
-**Atualiza status do pedido**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Atualizar pedido | Seleção múltipla | Não nulo | Em separação |
-| Número da NFE | Caixa de texto | Não nulo | --- |
-| Nome da transportadora | Caixa de Texto | Não nulo | --- |
-|    |    |     |
-
-**Dar baixa no pedido**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Número da NFE | Caixa de texto | Não nulo | --- |
-| Nome da transportadora | Caixa de Texto | Não nulo | --- |
-| Nome do solicitante | Caixa de texto | Não nulo | --- |
-| Nome do fornecedor | Caixa de texto | Não nulo | --- |
-| Data de chegada | Data | Não nulo | --- |
-| Hora de chegada | Número | Não nulo | --- |
 |    |    |     |
 
 ### Processo 3 - Feedback Financeiro
