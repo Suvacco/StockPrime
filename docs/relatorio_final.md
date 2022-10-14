@@ -119,8 +119,10 @@ O processo Quebra de Contrato desecreva a analise de um pedido de recisão de co
 
 ![Processo de Quebra de Contrato](imagens/processo-quebra-contrato.png "Processo de Quebra de Contrato")
 
-### 3.3.6 Processo de Atualização de Estoque ![Atualização de Estoque]
-![processo-de-atualiza-o-de-estoque-bpmn (1)](https://user-images.githubusercontent.com/96486178/194432838-1ecd54af-0dbe-4498-a393-5aec624081a7.png)
+### 3.3.6 Processo de Atualização de Estoque 
+
+![Atualizacao de estoque corrigido](https://user-images.githubusercontent.com/96486178/195735784-e6bf96ba-f151-469f-8cf3-89897d630550.png)
+
 
 O cliente solicita uma atualização no estoque e deve dizer se é uma entrada ou saída de produto. Ao dar entrada em um produto o mesmo é adicionado ao estoque, catalogado e o sistema é atualizado. Ao dar saída de um produto o mesmo é retirado do estoque, há uma baixa do produto no sistema e começa o subprocesso de embalagem que consiste em embalar, transportar e entregar o produto.
 
@@ -136,35 +138,23 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Produto |Seleção única|  |  |
+| Produto |Seleção única|  | 1 |
 
-**Entrada de produto**
+**Catalogar produto no sistema**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Adicionar produto | Múltipla escolha|  |  |  
+| Adicionar produto |Caixa de texto|  |  |  
 |  Quantidade  |  Número  |    | 1 |
 
-**Catalogar produto**
+**Dar baixa do produto no sistema**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Caixa de texto |  | Letras  |
+| Retirar produto| Caixa de texto |  | Letras  |
 | Quantidade   | Número    | Número inteiro    | 1 |
 
-**Retirar produto do estoque**
 
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Escolher produto |Múltipla escolha|  |  |
-|  Quantidade  |    |   1  |
-
-**Dar baixa no sistema**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
 
 #### Processo 2 – NOME DO PROCESSO
 
