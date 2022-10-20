@@ -130,7 +130,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 ### Processo 1 – Processo de Requisição e Formalização do Contrato
 
-**Requisita validação da empresa **
+**Requisita validação da empresa**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
