@@ -134,12 +134,13 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome | Caixa de texto | Não nulo |  --- |
-| CPF | Caixa de texto | 11 digitos |  000.000.000-00 |
-| Nome da empresa | Caixa de texto | Não nulo |  --- |
-| CPNJ | Caixa de texto | 14 digitos |  00. 000. 000/0000-00 |
-| Estado | Área de texto | NOT NULL | --- |
-| Cidade | Área de texto | NOT NULL | --- |
+| Nome | Área de texto | Não nulo |  --- |
+| CPF | Área de texto | 11 dígitos |  000.000.000-00 |
+| Nome da empresa | Área de texto | Não nulo |  --- |
+| CPNJ | Área de texto | 14 dígitos |  00. 000. 000/0000-00 |
+| Descrição da empresa | Caixa de texto | 220 caracteres |  --- |
+| Estado | Área de texto | Não nulo | --- |
+| Cidade | Área de texto | Não nulo | --- |
 |    |    |     |
 
 ### Processo 2 – Processo de Fornecimento
