@@ -97,34 +97,30 @@ A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento ef
 
 ## 3.3. Modelagem dos Processos
 
-### 3.3.1 Processo de Requisição e Formalização do Contrato 
+### 3.3.1 Processo de Requisição e Formalização do Contrato
+
 O processo de requisição e formalização do contrato garante que a Stockprime forneça o produto da forma correta e que o cliente não abuse das normas imposta pela nossa empresa. O subprocesso diz sobre os processos que devem seguir para verificar se o CNPJ é válido para o fechamento do contrato. ![Processo Contrato](https://user-images.githubusercontent.com/21000046/193168979-96a7a270-f20a-4a49-bac1-dc4aefc25499.jpeg)
 
 ### 3.3.2 Processo de Fornecimento
 
 O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.![Processo de Transporte Corrigido](https://user-images.githubusercontent.com/21000046/194676567-d4ae6991-3355-4e17-bdc2-6cffc678c97f.png)
 
-### 3.3.3 Processo de Feedback Financeiro
-O processo de Feedback Financeiro descreve os passos que ocorrem para que o cliente - através dos dados armazenados sobre a movimentação de seu estoque - receba uma análise de lucros e prejuízos em suas transações quando solicitado.  
-![new-bpmn-diagram](https://user-images.githubusercontent.com/104280113/193341745-74977ba7-ca1e-406d-bc45-e719c81626c6.png)
-
-### 3.3.4 Processo de Reestoque
+### 3.3.3 Processo de Reestoque
 
 O processo de Reestoque descreve os passos que ocorrem desde a checagem de estoque, visualização se há a disponibilidade de um produto e caso não esteja, fazer a requisição de mais produtos para o estoque. Além disso, possui também um subprocesso de calculo de orçamento, onde ele busca pelos melhores preços nas distribuidoras para disponibilizar o melhor orçamento ao cliente.
 ![Reestoque](https://user-images.githubusercontent.com/104282001/193195602-5f53d3fc-398f-4f38-8590-daa29d8358f6.png)
 
-### 3.3.5 Processo de Quebra de Contrato 
+### 3.3.4 Processo de Quebra de Contrato 
 
 O processo Quebra de Contrato desecreva a analise de um pedido de recisão de contrato e quais as ações toamdas de acordo com cada razão para o rompimento do contrato.
 
 ![Processo de Quebra de Contrato](imagens/processo-quebra-contrato.png "Processo de Quebra de Contrato")
 
-### 3.3.6 Processo de Atualização de Estoque 
-
-![Atualizacao de estoque corrigido](https://user-images.githubusercontent.com/96486178/195735784-e6bf96ba-f151-469f-8cf3-89897d630550.png)
-
+### 3.3.5 Processo de Atualização de Estoque 
 
 O cliente solicita uma atualização no estoque e deve dizer se é uma entrada ou saída de produto. Ao dar entrada em um produto o mesmo é adicionado ao estoque, catalogado e o sistema é atualizado. Ao dar saída de um produto o mesmo é retirado do estoque, há uma baixa do produto no sistema e começa o subprocesso de embalagem que consiste em embalar, transportar e entregar o produto.
+
+![Atualizacao de estoque corrigido](https://user-images.githubusercontent.com/96486178/195735784-e6bf96ba-f151-469f-8cf3-89897d630550.png)
 
 ## 4. Projeto da Solução
 
@@ -132,47 +128,7 @@ O cliente solicita uma atualização no estoque e deve dizer se é uma entrada o
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 1 – Atualização de estoque
-
-**Fazer Solicitação**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Produto |Seleção única|  | 1 |
-
-**Catalogar produto no sistema**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Adicionar produto |Caixa de texto|  |  |  
-|  Quantidade  |  Número  |    | 1 |
-
-**Dar baixa do produto no sistema**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Retirar produto| Caixa de texto |  | Letras  |
-| Quantidade   | Número    | Número inteiro    | 1 |
-
-
-
-#### Processo 2 – NOME DO PROCESSO
-
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-**Nome da atividade 2**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-#### Processo 2 – Fornecimento
+#### Processo 2 – Processo de Fornecimento
 
 **Informa problema na entrega**
 
@@ -218,30 +174,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Nome da transportadora | Caixa de Texto | Não nulo | --- |
 |    |    |     |
 
-### Processo 3 - Feedback Financeiro
-
-**Solicitar feedback financeiro**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Solicitação de feedback financeiro | Seleção única | --- | --- |
-
-**Cálculo financeiro**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Compras de X produto | Número | Não nulo | 0 |
-| Preço de compra para X produto | Número | Não nulo | 0 |
-| Vendas de X produto | Número | Não nulo | 0 |
-| Preço de venda para X produto | Número | Não nulo | 0 |
-
-**Resultado do feedback financeiro**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Lucro/Prejuízo | Número | Não nulo | 0 |
-
-### Processo 5 - Quebra de Contrato
+### Processo 4 - Processo de Quebra de Contrato
 
 **Solicitar quebra de contrato**
 
@@ -269,6 +202,44 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Cliente a ser desvinculado | Seleção única | Não Nulo | --- |
 |    |    |    |
+
+#### Processo 5 – Processo de Atualização de Estoque
+
+**Fazer Solicitação**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Produto |Seleção única|  | 1 |
+
+**Catalogar produto no sistema**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Adicionar produto |Caixa de texto|  |  |  
+|  Quantidade  |  Número  |    | 1 |
+
+**Dar baixa do produto no sistema**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Retirar produto| Caixa de texto |  | Letras  |
+| Quantidade   | Número    | Número inteiro    | 1 |
+
+#### Processo NUMERO_DO_PROCESSO – NOME DO PROCESSO
+
+**Nome da atividade 1**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+|    |    |     |
+
+**Nome da atividade 2**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+|    |    |     |
 
 ### 4.2. Tecnologias
 
