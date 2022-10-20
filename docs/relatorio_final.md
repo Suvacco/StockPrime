@@ -128,7 +128,7 @@ O cliente solicita uma atualização no estoque e deve dizer se é uma entrada o
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
-#### Processo 2 – Processo de Fornecimento
+### Processo 2 – Processo de Fornecimento
 
 **Informa problema na entrega**
 
@@ -203,7 +203,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Cliente a ser desvinculado | Seleção única | Não Nulo | --- |
 |    |    |    |
 
-#### Processo 5 – Processo de Atualização de Estoque
+### Processo 5 – Processo de Atualização de Estoque
 
 **Fazer Solicitação**
 
@@ -225,7 +225,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Retirar produto| Caixa de texto |  | Letras  |
 | Quantidade   | Número    | Número inteiro    | 1 |
 
-#### Processo NUMERO_DO_PROCESSO – NOME DO PROCESSO
+### Processo NUMERO_DO_PROCESSO – NOME DO PROCESSO
 
 **Nome da atividade 1**
 
