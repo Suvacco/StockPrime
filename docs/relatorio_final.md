@@ -244,8 +244,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Retirar produto| Caixa de texto |  | Letras  |
-| Quantidade   | Número    | Número inteiro    | 1 |
+| Retirar produto| Caixa de texto | Letras | --- |
+| Quantidade   | Número    | Número inteiro | 1 |
 
 ### Processo NUMERO_DO_PROCESSO – NOME DO PROCESSO
 
