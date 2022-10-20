@@ -174,6 +174,28 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Nome da transportadora | Caixa de Texto | Não nulo | --- |
 |    |    |     |
 
+### Processo 3 – Processo de Reestoque
+
+**Requisitar mais estoque**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome do Produto | Área de texto | NOT NULL | --- |
+| Quantidade do Produto | Número | NOT NULL | 1 |
+|    |    |     |
+
+**Enviar pedido de compra**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Estado | Área de texto | NOT NULL | --- |
+| Cidade | Área de texto | NOT NULL | --- |
+| Bairro | Área de texto | NOT NULL | --- |
+| Rua | Área de texto | NOT NULL | --- |
+| Número | Número | NOT NULL | --- |
+| Horario de Preferência | Múltipla escolha | Manha,Tarde,Noite | Manha,Tarde,Noite |
+|    |    |     |
+
 ### Processo 4 - Processo de Quebra de Contrato
 
 **Solicitar quebra de contrato**
