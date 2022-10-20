@@ -128,6 +128,20 @@ O cliente solicita uma atualização no estoque e deve dizer se é uma entrada o
 
 Descrever aqui cada uma das propriedades das atividades de cada um dos processos. Devem estar relacionadas com o modelo de processo apresentado anteriormente.
 
+### Processo 1 – Processo de Requisição e Formalização do Contrato
+
+**Requisita validação da empresa **
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| Nome | Caixa de texto | Não nulo |  --- |
+| CPF | Caixa de texto | 11 digitos |  000.000.000-00 |
+| Nome da empresa | Caixa de texto | Não nulo |  --- |
+| CPNJ | Caixa de texto | 14 digitos |  00. 000. 000/0000-00 |
+| Estado | Área de texto | NOT NULL | --- |
+| Cidade | Área de texto | NOT NULL | --- |
+|    |    |     |
+
 ### Processo 2 – Processo de Fornecimento
 
 **Informa problema na entrega**
