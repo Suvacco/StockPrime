@@ -103,7 +103,7 @@ O processo de requisição e formalização do contrato garante que a Stockprime
 
 ### 3.3.2 Processo de Fornecimento
 
-O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.![Processo de Transporte Corrigido](https://user-images.githubusercontent.com/21000046/194676567-d4ae6991-3355-4e17-bdc2-6cffc678c97f.png)
+O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.![Processo de Transporte Corrigido](https://user-images.githubusercontent.com/21000046/197262457-22e7a888-0b24-4613-991f-8925d4ff8703.png)
 
 ### 3.3.3 Processo de Reestoque
 
@@ -149,7 +149,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Deta da ocorrência | Data | Não nulo | 00-00-0000 |
+| Data da ocorrência | Data | Não nulo, O ano não pode ser maior que o atual | Data atual |
 | Nome do solicitante | Caixa de texto | Não nulo | --- |
 | Detalhes do problema | Caixa de texto | Não nulo | --- |
 | Numero da NFE | Caixa de texto | Não nulo | --- |
@@ -160,7 +160,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Deta da ocorrência | Data | Não nulo | 00-00-0000 |
+| Data da ocorrência | Data | Não nulo, O ano não pode ser maior que o atual | Data atual |
 | Nome do solicitante | Caixa de texto | Não nulo | --- |
 | Detalhes do dano | Caixa de texto | Não nulo | --- |
 | Numero da NFE | Caixa de texto | Não nulo | --- |
@@ -172,8 +172,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Confirmar recebimento do pedido | Seleção única | Não nulo | --- |
-| Data de chegada | Data | Não nulo | --- |
-| Hora de chegada | Número | Não nulo | --- |
+| Data de chegada | Data | Não nulo, O ano não pode ser maior que o atual | Data atual |
+| Hora de chegada | Número | Não nulo, A hora deve ser menor que 24 e maior que 0 | Hora atual |
 | Nome do fornecedor | Caixa de texto | Não nulo | --- |
 | Numero da NFE | Caixa de texto | Não nulo | --- |
 |    |    |     |
@@ -184,8 +184,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | --- | --- | --- | --- |
 | Confirmar saída do pedido | Seleção única | --- | --- |
 | Número da NFE | Caixa de texto | Não nulo | --- |
-| Data de saída | Data | Não nulo | 00-00-0000 |
-| Hora de saída | Número | Não nulo | --- |
+| Data de saída | Data | Não nulo, O ano não pode ser maior que o atual | Data atual |
+| Hora de saída | Número | Não nulo, A hora deve ser menor que 24 e maior que 0 | Hora atual |
 | Nome da transportadora | Caixa de Texto | Não nulo | --- |
 |    |    |     |
 
