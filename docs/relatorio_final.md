@@ -302,9 +302,16 @@ Usar o seguinte modelo:
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
-## 7.Sistema desenvolvido
+## 7. Sistema desenvolvido
 
 Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
+
+## 7.1. Tela Inicial
+
+Tela inicial do projeto, onde é disponibilizado uma breve informação sobre ele assim como também a possibilidade de se registrar (no botão "SE TORNE UMA EMPRESA AFILIADA") ou - caso já membro - a possibilidade de logar-se e seguir para próximas páginas. 
+
+[Untitled.pdf](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-stockprime/files/9834683/Untitled.pdf)
+
 
 ## 8. Conclusão
 
