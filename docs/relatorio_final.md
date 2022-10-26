@@ -114,7 +114,7 @@ O processo de Reestoque descreve os passos que ocorrem desde a checagem de estoq
 
 O processo Quebra de Contrato desecreva a analise de um pedido de recisão de contrato e quais as ações toamdas de acordo com cada razão para o rompimento do contrato.
 
-![Processo de Quebra de Contrato](imagens/processo-quebra-contrato.png "Processo de Quebra de Contrato")
+![Processo de Quebra de Contrato](imagens/diagrama-bpmn-quebra-contrato.png "Processo de Quebra de Contrato")
 
 ### 3.3.5 Processo de Atualização de Estoque 
 
@@ -232,12 +232,13 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | Valor do contrato | Número | Não Nulo | 0,00 |
 | % da multa | Número | Não Nulo | 0,00 | 
 | Valor da multa | Número | Não Nulo | 0,00 | 
+| Data de fim do contrato | Date | Não Nulo | --- |
 |    |    |    |
 
 **Desvincular cliente**
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Cliente a ser desvinculado | Seleção única | Não Nulo | --- |
+| Desvincular contrato | Seleção única | Não Nulo | --- |
 |    |    |    |
 
 ### Processo 5 – Processo de Atualização de Estoque
