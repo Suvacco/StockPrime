@@ -108,7 +108,7 @@ O processo de fornecimento retrata todos os passos que ocorrem para que um deter
 ### 3.3.3 Processo de Reestoque
 
 O processo de Reestoque descreve os passos que ocorrem desde a checagem de estoque, visualização se há a disponibilidade de um produto e caso não esteja, fazer a requisição de mais produtos para o estoque. Além disso, possui também um subprocesso de calculo de orçamento, onde ele busca pelos melhores preços nas distribuidoras para disponibilizar o melhor orçamento ao cliente.
-![Reestoque](https://user-images.githubusercontent.com/104282001/197072486-61de73d7-0f0b-41d5-8d27-e53afe464970.png)
+![new-bpmn-diagram (1)](https://user-images.githubusercontent.com/104282001/198130542-2228faff-0cd0-4a8d-b7ff-e837ffc810ea.png)
 
 ### 3.3.4 Processo de Quebra de Contrato 
 
