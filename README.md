@@ -1,6 +1,6 @@
 # StockPrime
 
-O projeto consiste em desenvolver uma solução para problemas de controle de estoque específico à materias primas. Sendo assim, a base do projeto será a criação de um sistema de gerenciamento que permita às empresas ter um maior controle sobre custo, demanda, lucro, despesas e possíveis danos econômicos.
+O projeto consiste em desenvolver uma solução para problemas de controle de estoque. Sendo assim, a base do projeto será a criação de um sistema de gerenciamento que permita um controle preciso e intuitivo nos processos de estocagem a fim de priorizar eficacia e desempenho.
 
 ## Integrantes
 
