@@ -17,7 +17,7 @@ create table cliente(
 
 create table contrato(
 	cnpj_empresa int NOT NULL,
-    codigo_contrato int NOT NULL AUTO_INCREMENT,
+    id_contrato int NOT NULL AUTO_INCREMENT,
     valor_contrato int NOT NULL,
     status_contrato varchar(255),
 	multa int,
@@ -25,30 +25,30 @@ create table contrato(
     data_encerramento varchar (255),
     
     foreign key (cnpj_empresa) references cliente(cnpj_empresa),
-    primary key (codigo_contrato)
+    primary key (id_contrato)
 );
 
 create table produto(
-	codigo_produto int NOT NULL,
+	id_produto int NOT NULL,
     nome_produto varchar(255),
 
-	primary key (codigo_produto)
+	primary key (id_produto)
 );
 
 create table estoque(
 	cnpj_empresa int NOT NULL,
-    codigo_produto int NOT NULL,
+    id_produto int NOT NULL,
     id_estoque int NOT NULL AUTO_INCREMENT,
 	quantidade_produto int NOT NULL,
     
     foreign key (cnpj_empresa) references cliente(cnpj_empresa),
-    foreign key (codigo_produto) references produto(codigo_produto),
+    foreign key (id_produto) references produto(id_produto),
     primary key (id_estoque)
 );
 
 create table pedidos(
 	cnpj_empresa int NOT NULL,
-    codigo_produto int NOT NULL,
+    id_produto int NOT NULL,
     id_pedido int NOT NULL AUTO_INCREMENT,
     status_pedido varchar(255),
     fornecedor varchar(255),
@@ -58,17 +58,18 @@ create table pedidos(
     preferencia_horario varchar(255),
     
 	foreign key (cnpj_empresa) references cliente(cnpj_empresa),
-	foreign key (codigo_produto) references estoque(codigo_produto),
+	foreign key (id_produto) references estoque(id_produto),
 	primary key (id_pedido)
 );
 
 create table danos(
 	id_pedido int NOT NULL,
+    id_dano int NOT NULL,
     data_ocorrencia varchar(255),
     detalhes_dano varchar(255),
     
     foreign key (id_pedido) references pedidos(id_pedido),
-    primary key (id_pedido)
+    primary key (id_dano)
 );
 
 
