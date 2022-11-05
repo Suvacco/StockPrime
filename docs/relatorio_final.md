@@ -103,7 +103,7 @@ O processo de requisição e formalização do contrato garante que a Stockprime
 
 ### 3.3.2 Processo de Fornecimento
 
-O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Transportador" como peças centrais no processo que prezam pela entrega minimizando a ocorrência de problemas no envio. A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.![Processo de Transporte Corrigido](https://user-images.githubusercontent.com/21000046/199873420-be7ff26f-eff8-40b8-bc1a-dcfe602195a0.png)
+O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Solicitante" como peças centrais no processo tendo como intermédio o participante "Transportadora". A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.![Processo de Fornecimento Corrigido](https://user-images.githubusercontent.com/21000046/200141708-48b1f797-963e-40d0-b5f0-2ef5bccdc35d.png)
 
 ### 3.3.3 Processo de Reestoque
 
@@ -149,11 +149,33 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Confirmar recebimento do pedido | Seleção única | Não nulo | --- |
+| ID do Pedido | Número | Não nulo | --- |
 | Data de chegada | Data | Não nulo, O ano não pode ser maior que o atual | Data atual |
 | Hora de chegada | Número | Não nulo, A hora deve ser menor que 24 e maior que 0 | Hora atual |
 | Nome do fornecedor | Caixa de texto | Não nulo | --- |
 | Numero da NFE | Caixa de texto | Não nulo | --- |
+|    |    |     |
+
+**Registra dano no pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| ID do Pedido | Número | Não nulo | --- |
+| Data de chegada | Data | Não nulo, O ano não pode ser maior que o atual | Data atual |
+| Hora de chegada | Número | Não nulo, A hora deve ser menor que 24 e maior que 0 | Hora atual |
+| Nome do fornecedor | Caixa de texto | Não nulo | --- |
+| Numero da NFE | Caixa de texto | Não nulo | --- |
+| Detalhes do dano | Caixa de texto | Não nulo | --- |
+|    |    |     |
+
+**Registra problema no pedido**
+
+| **Campo** | **Tipo** | **Restrições** | **Valor default** |
+| --- | --- | --- | --- |
+| ID do Pedido | Número | Não nulo | --- |
+| Nome do fornecedor | Caixa de texto | Não nulo | --- |
+| Numero da NFE | Caixa de texto | Não nulo | --- |
+| Detalhes do problema | Caixa de texto | Não nulo | --- |
 |    |    |     |
 
 ### Processo 3 – Processo de Reestoque
