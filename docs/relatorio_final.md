@@ -270,6 +270,8 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 ### 4.2. Tecnologias
 
+Utilizaremos o Framework Bootstrap para a codificação em HTML e CSS do front-end. Já para o back-end estaremos utilizando o JavaScript em Node.js e o SGBD MySQL para armazenamento de dados. Para IDE utilizaremos o Visual Studio Code e para modelagem do banco de dados utilizaremos o MySQL Workbench. A medida que o desenvolvimento do projeto crescer estaremos adicionando aqui mais tecnologias.
+
 Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## 5. Modelo de dados
