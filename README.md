@@ -16,6 +16,7 @@ O projeto consiste em desenvolver uma solução para problemas de controle de es
 * Cristiano Geraldo Teixeira Silva
 * Felipe Augusto Lima Reis
 * Hugo Bastos de Paula
+* Cleiton Silva Tavares
 
 ## Instruções de utilização
 
