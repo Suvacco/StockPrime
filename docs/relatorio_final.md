@@ -7,7 +7,7 @@
 
 **Victor Augusto Nascimento, 1401434@sga.pucminas.br**
 
-**Guilherme da Silveira Cantoni,gcantoni@sga.pucminas.br**
+**Guilherme da Silveira Cantoni, gcantoni@sga.pucminas.br**
 
 **Carlos Emanuel Silva e Melo Oliveira, carlos.oliveira.1405439@sga.pucminas.br**
 
@@ -22,6 +22,8 @@ Professores:
 **Felipe Augusto Lima Reis**
 
 **Hugo Bastos de Paula**
+
+**Cleiton Silva Tavares**
 
 ---
 
