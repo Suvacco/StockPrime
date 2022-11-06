@@ -1,0 +1,39 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: StockPrime
+authors:
+  - family-names: Rodrigues Nalon
+    given-names: Yan
+  - family-names: Rodrigues de Freitas Faria
+    given-names: André
+  - family-names: da Silveira Cantoni
+    given-names: Guilherme
+  - family-names: Nato Silva
+    given-names: Pedro Luiz
+  - family-names: Nascimento
+    given-names: Victor Augusto
+  - family-names: Silva e Melo Oliveira
+    given-names: Carlos Emanuel
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Silva Tavares
+    given-names: Cleiton
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Lima Reis
+    given-names: Felipe Augusto
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Bastos de Paula
+    given-names: Hugo
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Geraldo Teixeira Silva
+    given-names: Cristiano
+keywords:
+  - Estoque
+  - Gerenciamento
+repository-code: https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-stockprime
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2022-12-09
