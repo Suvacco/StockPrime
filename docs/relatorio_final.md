@@ -278,7 +278,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 ## 5. Modelo de dados
 
-![BD Relacional StockPrime](https://user-images.githubusercontent.com/21000046/200141906-bc6469f0-08d2-449e-aa33-874ef82909e9.png)
+![Diagrama](https://user-images.githubusercontent.com/21000046/200971974-05074940-5f0c-4225-ad9f-d52603c37d62.png)
 
 ## 6. Indicadores de desempenho
 
