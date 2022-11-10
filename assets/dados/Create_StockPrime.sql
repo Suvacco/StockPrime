@@ -31,6 +31,7 @@ create table contrato(
 create table produto(
 	id_produto int NOT NULL,
     nome_produto varchar(255),
+	preco int NOT NULL,
 
 	primary key (id_produto)
 );
