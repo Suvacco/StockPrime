@@ -291,6 +291,8 @@ Usar o seguinte modelo:
 | Percentual de requisições de quebra de contrato | Avaliar quantitativamente as requisições de quebra de contrato para melhorar o serviço oferecido | Percentual de pedidos de qubra de contrato em relação ao total de contratos feitos |   | Tabela de contratos | Aprendizado e Crescimento |
 | Taxa de Requisições abertas | Melhorar a prestação de serviços medindo a porcentagem de requisições | Mede % de requisições atendidas na semana | ![\frac{\sum{atendidas}}{\sum{requisicoes}}100](https://latex.codecogs.com/svg.latex?\frac{\sum{atendidas}}{\sum{requisicoes}}100) | Tabela solicitações | Processos internos |
 | Taxa de entrega de material | Manter controle sobre os materiais que estão sendo entregues | Mede % de material entregue dentro do mês |   | Tabela Pedidos | Clientes |
+| Taxa de movimentação de pedidos por semana | Manter conhecimento e controle sobre a média de pedidos feitos durante o período de uma semana | Realiza a média de pedidos feitos em uma semana durante o período de um mês |   | Tabela Pedidos | Clientes |
+
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
 
