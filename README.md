@@ -13,7 +13,7 @@ O projeto consiste em desenvolver uma solução para problemas de controle de es
 
 ## Professor
 
-* Cristiano Geraldo Teixeira Silva
+* Cristiano Neves Rodrigues
 * Felipe Augusto Lima Reis
 * Hugo Bastos de Paula
 * Cleiton Silva Tavares
