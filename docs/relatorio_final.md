@@ -278,7 +278,7 @@ Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou se
 
 ## 5. Modelo de dados
 
-![Diagrama](https://user-images.githubusercontent.com/21000046/203641957-5eef3a20-6ef6-4fa8-9be9-bf3c36dac3bd.png)
+![Diagrama](https://user-images.githubusercontent.com/21000046/204168310-faa7890e-b5ae-41c3-adc7-38ca4490d0d6.png)
 
 ## 6. Indicadores de desempenho
 
