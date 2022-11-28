@@ -289,7 +289,7 @@ Usar o seguinte modelo:
 | **Indicador** | **Objetivos** | **Descrição** | **Cálculo** | **Fonte dados** | **Perspectiva** |
 | --- | --- | --- | --- | --- | --- |
 | Percentual de requisições de quebra de contrato | Avaliar quantitativamente as requisições de quebra de contrato para melhorar o serviço oferecido | Percentual de pedidos de qubra de contrato em relação ao total de contratos feitos |   | Tabela de contratos | Aprendizado e Crescimento |
-| Taxa de movimentação de pedidos por semana | Manter conhecimento e controle sobre a média de pedidos feitos durante o período de uma semana | Realiza a média de pedidos feitos em uma semana durante o período de um mês |   | Tabela Pedidos | Clientes |
+| Taxa de movimentação de pedidos por semana | Manter conhecimento e controle sobre a média de pedidos feitos durante o período de uma semana | Realiza a média de pedidos feitos no período de uma semana |   | Tabela Pedidos | Clientes |
 | Taxa de pedidos danificados por empresa | Identificar e melhorar os processos que ocasionaram o dano | Calcula quantos porcento de pedidos entregues foram danificados em cima do total de pedidos feitos | [Percentual = (100 * NpedidosDanificados) / NtotalPedidos](https://latex.codecogs.com/svg.latex?{Percentual%20=%20\frac{(100%20*%20NpedidosDanificados)}{NtotalPedidos}}) | Tabela danos | Cliente |
 
 Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
