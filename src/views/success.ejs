@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+<div class="box success">
+
+    <div class="box-content">
+
+        <i class="fa-solid fa-circle-check icon success-icon"></i>
+
+        <h1>Sucesso</h1>
+
+        <h4><%= message %></h4>
+
+        <form action="/success" method="post">
+            
+            <input type="hidden" name="page" value="<%= actualPage %>">
+
+            <button class="btn success-btn" type="submit">Retornar</button>
+            
+        </form>
+    </div>
+</div>
+
+<%- include('partials/footer') %>

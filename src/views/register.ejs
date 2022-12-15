@@ -1,0 +1,70 @@
+<%- include('partials/header') %>
+
+<div class="box register">
+
+    <div class="align-center">
+        <img class="logo-img" src="img/Logo.png" alt="Logo">
+    </div>  
+
+    <form class="credentials-form" action="/register" method="post">
+
+        <div class="form-text mb-3">
+            Dados Empresariais:
+        </div>
+
+        <div class="form-floating mb-3">
+            <input class="form-control" type="text" name="nome" id="nomeInput" placeholder="Nome">
+            <label class="form-label" for="nomeInput">Nome</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input class="form-control" type="text" name="desc" id="descInput" placeholder="Descrição">
+            <label class="form-label" for="descInput">Descrição</label>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="text" name="estado" id="estadoInput" placeholder="Estado">
+                    <label class="form-label" for="estadoInput">Estado</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="text" name="cidade" id="cidadeInput" placeholder="Cidade">
+                    <label class="form-label" for="cidadeInput">Cidade</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="form-text mb-3 mt-3">
+            Credenciais:
+        </div>
+
+        <div class="form-floating mb-3">
+            <input class="form-control" type="text" name="cnpj" id="cnpjInput" placeholder="Cnpj">
+            <label class="form-label" for="cnpjInput">CNPJ</label>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="password" name="password" id="passwordInput" placeholder="Senha">
+                    <label class="form-label" for="estadoInput">Senha</label>
+                </div>
+            </div>
+            <div class="col">
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="password" name="passwordRepeat" id="passwordRepeatInput" placeholder="Repetir Senha">
+                    <label class="form-label" for="passwordRepeatInput">Repetir Senha</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="center mb-5">
+            <button class="btn standard-btn credentials-btn" type="submit">Registrar</button>
+        </div>
+    </form>
+</div>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,33 @@
+<%- include('partials/header') %>
+
+<div class="box">
+
+    <div class="align-center">
+        <img class="logo-img" src="img/Logo.png" alt="Logo">
+    </div>  
+
+    <div class="credentials-form">
+
+    <form action="/shutdown" method="post">
+
+        <% let multa = 0 %>
+
+        <% user.inventory.forEach((itemObj) => { %>
+            <% multa += Math.floor((100 / itemObj.max_quantity) * itemObj.quantity) * 100 %>
+        <% }) %>
+        <% multa = multa * 10 %>
+
+        <h2>Deseja realmente encerrar a sua conta?</h2>
+
+        <h5 class="multa">Multa: <span class="color-blue">R$<%= multa %>,00</span></h5>
+        
+        <button class="btn confirm-btn" type="submit">Confirmar</button>
+
+    </form>
+
+    <div class="align-right">
+        <a href="/home"><button class="btn cancel-btn standard-btn">Cancelar</button></a>
+    </div>
+</div>
+</div>
+<%- include('partials/footer') %>
