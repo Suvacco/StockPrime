@@ -1,0 +1,52 @@
+<%- include('partials/header') %>
+
+<section id="register-item">
+
+    <div class="box item-register">
+
+        <div class="align-center">
+            <i class="fa-solid fa-circle-chevron-down icon item-register-icon"></i>
+            <h1> Cadastrar </h1>
+        </div>
+
+        
+
+        <div class="credentials-form">
+
+            <form action="/item-register" method="post">
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="text" name="nome" id="nomeInput" placeholder="Nome">
+                    <label class="form-label" for="nomeInput">Nome</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="text" name="desc" id="descInput" placeholder="Descrição">
+                    <label class="form-label" for="descInput">Descrição</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="number" name="maxnumber" id="maxnumberInput" placeholder="Estoque Máximo">
+                    <label class="form-label" for="maxnumberInput">Estoque Máximo</label>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <input class="form-control" type="number" name="percentagenumber" id="percentagenumberInput" placeholder="Porcentagem de Alerta">
+                    <label class="form-label" for="percentagenumberInput">Porcentagem de Alerta</label>
+                </div>
+
+                <button class="btn confirm-btn" type="submit">Confirmar</button>
+
+            </form>
+
+            <div class="align-right">
+                <a href="/home"><button class="btn cancel-btn">Cancelar</button></a>
+            </div>
+
+        </div>
+        
+    </div>
+
+</section>
+
+<%- include('partials/footer') %>
