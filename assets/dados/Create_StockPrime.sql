@@ -1,23 +1,19 @@
-
 use stockprime;
 
 create table cliente(
-	nome_dono varchar(255) NOT NULL,
-    cpf_dono int NOT NULL,
+	cnpj_empresa int NOT NULL,
+	senha varchar(255),
     nome_empresa varchar(255),
-    cnpj_empresa int NOT NULL,
     descricao varchar(255),
     estado varchar(255) NOT NULL,
     cidade varchar(255) NOT NULL,
-    login varchar(255),
-    senha varchar(255),
     
     primary key (cnpj_empresa)
 );
 
 create table contrato(
-	cnpj_empresa int NOT NULL,
     id_contrato int NOT NULL AUTO_INCREMENT,
+	cnpj_empresa int NOT NULL,
     valor_contrato int NOT NULL,
     status_contrato varchar(255),
 	multa int,
@@ -30,27 +26,21 @@ create table contrato(
 
 create table produto(
 	id_produto int NOT NULL,
-    nome_produto varchar(255),
-	preco int NOT NULL,
+	cnpj_empresa int NOT NULL,
+    nome_produto varchar(255) NOT NULL,
+	porcentagem_alerta int NOT NULL,
+    quantidade_produto int NOT NULL,
+    estoque_max int NOT NULL,
 
+    foreign key (cnpj_empresa) references cliente(cnpj_empresa),
 	primary key (id_produto)
 );
 
-create table estoque(
-	cnpj_empresa int NOT NULL,
-    id_produto int NOT NULL,
-    id_estoque int NOT NULL AUTO_INCREMENT,
-	quantidade_produto int NOT NULL,
-    
-    foreign key (cnpj_empresa) references cliente(cnpj_empresa),
-    foreign key (id_produto) references produto(id_produto),
-    primary key (id_estoque)
-);
-
 create table pedidos(
+    id_pedido int NOT NULL AUTO_INCREMENT,
 	cnpj_empresa int NOT NULL,
     id_produto int NOT NULL,
-    id_pedido int NOT NULL AUTO_INCREMENT,
+	quantidade int NOT NULL,
     status_pedido varchar(255),
     fornecedor varchar(255),
     numero_nfe int,
@@ -59,18 +49,18 @@ create table pedidos(
     preferencia_horario varchar(255),
     
 	foreign key (cnpj_empresa) references cliente(cnpj_empresa),
-	foreign key (id_produto) references estoque(id_produto),
+	foreign key (id_produto) references produto(id_produto),
 	primary key (id_pedido)
 );
 
-create table danos(
+create table ocorrencias(
+    id_ocorrencia int NOT NULL,
 	id_pedido int NOT NULL,
-    id_dano int NOT NULL,
     data_ocorrencia varchar(255),
-    detalhes_dano varchar(255),
+    detalhes varchar(255),
     
     foreign key (id_pedido) references pedidos(id_pedido),
-    primary key (id_dano)
+    primary key (id_ocorrencia)
 );
 
 
