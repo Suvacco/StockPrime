@@ -129,137 +129,70 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Nome | Área de texto | Não nulo |  --- |
-| CPF | Área de texto | 11 dígitos |  000.000.000-00 |
-| Nome da empresa | Área de texto | Não nulo |  --- |
-| CPNJ | Área de texto | 14 dígitos |  00. 000. 000/0000-00 |
-| Descrição da empresa | Caixa de texto | 220 caracteres |  --- |
-| Estado | Área de texto | Não nulo | --- |
-| Cidade | Área de texto | Não nulo | --- |
+| Descrição | Área de texto | No máximo 120 caracteres |  --- |
+| Estado | Área de texto | Não nulo |  --- |
+| Cidade | Área de texto | Não nulo |  --- |
+| CNPJ | Caixa de texto | No máximo 14 caracteres |  --- |
+| Senha | Área de texto | Não nulo | --- |
+| Repetir Senha | Área de texto | Não nulo | --- |
 |    |    |     |
 
 ### Processo 2 – Processo de Fornecimento
 
-**Confirma chegada do pedido**
+**Adiciona item ao estoque**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| ID do Pedido | Número | Não nulo | --- |
-| Data de chegada | Data | Não nulo, O ano não pode ser maior que o atual | Data atual |
-| Hora de chegada | Número | Não nulo, A hora deve ser menor que 24 e maior que 0 | Hora atual |
-| Nome do fornecedor | Caixa de texto | Não nulo | --- |
-| Numero da NFE | Caixa de texto | Não nulo | --- |
-|    |    |     |
-
-**Registra dano no pedido**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| ID do Pedido | Número | Não nulo | --- |
-| Data de chegada | Data | Não nulo, O ano não pode ser maior que o atual | Data atual |
-| Hora de chegada | Número | Não nulo, A hora deve ser menor que 24 e maior que 0 | Hora atual |
-| Nome do fornecedor | Caixa de texto | Não nulo | --- |
-| Numero da NFE | Caixa de texto | Não nulo | --- |
-| Detalhes do dano | Caixa de texto | Não nulo | --- |
-|    |    |     |
-
-**Registra problema no pedido**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| ID do Pedido | Número | Não nulo | --- |
-| Nome do fornecedor | Caixa de texto | Não nulo | --- |
-| Numero da NFE | Caixa de texto | Não nulo | --- |
-| Detalhes do problema | Caixa de texto | Não nulo | --- |
+| Nome | Área de texto | Não nulo | --- |
+| Descrição | Área de texto | --- | --- |
+| Estoque Máximo | Número | --- | --- |
+| Porcentagem Alerta | Número | Número maior que 0 menor que 100 | --- |
 |    |    |     |
 
 ### Processo 3 – Processo de Reestoque
 
-**Requisitar mais estoque**
+**Requisita mais estoque**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Nome do Produto | Área de texto | NOT NULL | --- |
-| Quantidade do Produto | Número | NOT NULL | 1 |
+| Fornecedor | Área de texto | Não nulo | --- |
+| Quantidade do Produto | Número | Não nulo | --- |
 |    |    |     |
 
-**Enviar pedido de compra**
+### Processo 4 - Processo de Quebra de Contrato 
 
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Estado | Área de texto | NOT NULL | --- |
-| Cidade | Área de texto | NOT NULL | --- |
-| Bairro | Área de texto | NOT NULL | --- |
-| Rua | Área de texto | NOT NULL | --- |
-| Número | Número | NOT NULL | --- |
-| Horario de Preferência | Múltipla escolha | Manha,Tarde,Noite | Manha,Tarde,Noite |
-|    |    |     |
-
-### Processo 4 - Processo de Quebra de Contrato
-
-**Solicitar quebra de contrato**
+**Solicita encerramento de conta**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
 | Comunicado de rescisão | Arquivo | Formato do arquivo: pdf | --- |
-|    |    |    |
-
-**Notificar fim do contrato**
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Informar fim do contrato | Área de texto | Não Nulo| --- |
-|    |    |    |    
-
-**Calcular multa**
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Valor do contrato | Número | Não Nulo | 0,00 |
-| % da multa | Número | Não Nulo | 0,00 | 
 | Valor da multa | Número | Não Nulo | 0,00 | 
-| Data de fim do contrato | Date | Não Nulo | --- |
 |    |    |    |
 
-**Desvincular cliente**
+### Processo 5 – Processo de Atualização de Estoque 
+
+**Insere quantidade de saída**
+
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Desvincular contrato | Seleção única | Não Nulo | --- |
+| Quantidade | Número | Não nulo | --- |
 |    |    |    |
 
-### Processo 5 – Processo de Atualização de Estoque
-
-**Fazer Solicitação**
+**Insere quantidade de entrada**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Produto |Seleção única|  | 1 |
+| Quantidade | Número | Não nulo | --- |
+|    |    |    |
 
-**Catalogar produto no sistema**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| Adicionar produto |Caixa de texto|  |  |  
-|  Quantidade  |  Número  |    | 1 |
-
-**Dar baixa do produto no sistema**
+**Insere dados do item**
 
 | **Campo** | **Tipo** | **Restrições** | **Valor default** |
 | --- | --- | --- | --- |
-| Retirar produto| Caixa de texto | Letras | --- |
-| Quantidade   | Número    | Número inteiro | 1 |
-
-### Processo NUMERO_DO_PROCESSO – NOME DO PROCESSO
-
-**Nome da atividade 1**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
-|    |    |     |
-
-**Nome da atividade 2**
-
-| **Campo** | **Tipo** | **Restrições** | **Valor default** |
-| --- | --- | --- | --- |
-| [Nome do campo] | [Área de texto, Caixa de texto, Número, Data, Imagem, Seleção única, Múltipla escolha, Arquivo, Link, Tabela] |  |  |
+| Nome | Área de texto | Não nulo | --- |
+| Descrição | Área de texto | --- | --- |
+| Estoque Máximo | Número | --- | --- |
+| Porcentagem Alerta | Número | Número maior que 0 menor que 100 | --- |
 |    |    |     |
 
 ### 4.2. Tecnologias
