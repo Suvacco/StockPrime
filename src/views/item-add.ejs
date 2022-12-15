@@ -1,0 +1,41 @@
+<%- include('partials/header') %>
+
+<section id="register-item">
+
+    <div class="box item-register">
+
+        <div class="align-center">
+            <i class="fa-solid fa-circle-plus icon item-register-icon"></i>
+            <h1> Inserir </h1>
+        </div>
+
+        <div class="credentials-form">
+
+            <form action="/item-add/submit" method="post">
+
+                <h5>Item selecionado: <span class="color-blue"><%= itemName %></span></h5>
+
+                <h5>ID: <span class="color-blue"><%= itemId.substring(18, 24) %></span></h5>
+
+                <div class="form-floating mt-4 mb-3">
+                    <input class="form-control" type="number" name="addQuantity" id="addQuantityInput" placeholder="Quantidade">
+                    <label class="form-label" for="addQuantityInput">Quantidade</label>
+                </div>
+
+                <input type="hidden" name="targetItem" value="<%= itemObj %>">
+
+                <button class="btn confirm-btn" type="submit">Confirmar</button>
+
+            </form>
+
+            <div class="align-right">
+                <a href="/home"><button class="btn cancel-btn">Cancelar</button></a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<%- include('partials/footer') %>

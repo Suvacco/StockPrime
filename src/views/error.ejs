@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+
+<div class="box error">
+
+    <div class="box-content">
+
+        <i class="fa-sharp fa-solid fa-circle-xmark icon error-icon"></i>
+        
+        <h1> Erro </h1>
+        
+        <h4><%= message %></h4>
+        
+        <form action="/error" method="post">
+            
+            <input type="hidden" name="page" value="<%= actualPage %>">
+
+            <button class="btn error-btn" type="submit">Retornar</button>
+            
+        </form> 
+    </div>  
+</div>
+
+<%- include('partials/footer') %>
