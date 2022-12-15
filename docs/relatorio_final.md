@@ -93,28 +93,28 @@ A proposta da StockPrime é desenvolver um sistema que possibilite um gerenciame
 
 ### 3.3.1 Processo de Requisição e Formalização do Contrato
 
-O processo de requisição e formalização do contrato garante que a StockPrime forneça o produto da forma correta e que o cliente não abuse das normas imposta pela nossa empresa. O subprocesso diz sobre os processos que devem seguir para verificar se o CNPJ é válido para o fechamento do contrato. ![CONTRATOBPMN](https://user-images.githubusercontent.com/21000046/197075828-4219e5c6-7daa-4c12-81ed-d77edc265579.png)
+O processo de requisição e formalização do contrato pertence à parte de cadastro da empresa no StockPrime.
+![Processo de Requisição e Formalização do Contrato](https://user-images.githubusercontent.com/21000046/207984098-40ceb7eb-e2dc-48ba-9d11-df2129c292b3.png)
 
 ### 3.3.2 Processo de Fornecimento
 
-O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o cliente solicitante. As raias descrevem "Fornecedor" e "Solicitante" como peças centrais no processo tendo como intermédio o participante "Transportadora". A piscina também trata exceções caso ocorra algum problema com o pedido durante o processo.![Processo de Fornecimento Corrigido](https://user-images.githubusercontent.com/21000046/200141708-48b1f797-963e-40d0-b5f0-2ef5bccdc35d.png)
+O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o usuário. As raias descrevem "Transportadora" e "Usuário" como peças centrais no processo. 
+![Processo de Fornecimento](https://user-images.githubusercontent.com/21000046/207984285-43a98005-411d-4139-ac34-1c3b247ec75d.png)
 
 ### 3.3.3 Processo de Reestoque
 
-O processo de Reestoque descreve os passos que ocorrem desde a checagem de estoque, visualização se há a disponibilidade de um produto e caso não esteja, fazer a requisição de mais produtos para o estoque. Além disso, possui também um subprocesso de calculo de orçamento, onde ele busca pelos melhores preços nas distribuidoras para disponibilizar o melhor orçamento ao cliente.
-![new-bpmn-diagram (1)](https://user-images.githubusercontent.com/104282001/198130542-2228faff-0cd0-4a8d-b7ff-e837ffc810ea.png)
+O processo de reestoque descreve as tarefas necessárias para fazer um pedido à um fornecedor. Ao final do processo é disparado um sinal ao processo de fornecimento.
+![Processo de Reestoque](https://user-images.githubusercontent.com/21000046/207984579-5f268019-2902-4edf-9c10-9f6d3f3147bf.png)
 
 ### 3.3.4 Processo de Quebra de Contrato 
 
-O processo Quebra de Contrato desecreva a analise de um pedido de recisão de contrato e quais as ações toamdas de acordo com cada razão para o rompimento do contrato.
-
-![Processo de Quebra de Contrato](imagens/diagrama-bpmn-quebra-contrato.png "Processo de Quebra de Contrato")
+O processo quebra de contrato descreve a analise de um pedido de recisão de contrato e quais medidas devem ser tomadas para realizar o rompimento do contrato.
+![Processo de Quebra de Contrato](https://user-images.githubusercontent.com/21000046/207984777-4076e800-2e30-4bbb-b633-6440884a6875.png)
 
 ### 3.3.5 Processo de Atualização de Estoque 
 
-O cliente solicita uma atualização no estoque e deve dizer se é uma entrada ou saída de produto. Ao dar entrada em um produto o mesmo é adicionado ao estoque, catalogado e o sistema é atualizado. Ao dar saída de um produto o mesmo é retirado do estoque, há uma baixa do produto no sistema e começa o subprocesso de embalagem que consiste em embalar, transportar e entregar o produto.
-
-![Atualizacao de estoque corrigido](https://user-images.githubusercontent.com/96486178/195735784-e6bf96ba-f151-469f-8cf3-89897d630550.png)
+O processo de atualização de estoque referencia a ação de adicionar, remover ou cadastrar um novo item no estoque tratando os diversos erros caso haja uma inconsistencia com o mesmo. 
+![Processo de Atualização de Estoque](https://user-images.githubusercontent.com/21000046/207984936-658c2957-9e16-4e5a-aa80-924d44f7bd84.png)
 
 ## 4. Projeto da Solução
 
