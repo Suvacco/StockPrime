@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:modeler="http://camunda.org/schema/modeler/1.0" id="Definitions_0sp5c68" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="5.2.0" modeler:executionPlatform="Camunda Cloud" modeler:executionPlatformVersion="8.0.0">
+  <bpmn:collaboration id="Collaboration_01lkboz">
+    <bpmn:participant id="Participant_058w4r3" name="Processo de Quebra de Contrato" processRef="Process_1so0xjd" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1so0xjd" isExecutable="true">
+    <bpmn:laneSet id="LaneSet_0pem758">
+      <bpmn:lane id="Lane_00vmdw2" name="Sistema">
+        <bpmn:flowNodeRef>Activity_0vehsis</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0e8irm7</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_1lv28yk</bpmn:flowNodeRef>
+      </bpmn:lane>
+      <bpmn:lane id="Lane_06z81eh" name="Usuário">
+        <bpmn:flowNodeRef>StartEvent_1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Activity_0dzu7nw</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Gateway_0avg8b1</bpmn:flowNodeRef>
+        <bpmn:flowNodeRef>Event_04zm94m</bpmn:flowNodeRef>
+      </bpmn:lane>
+    </bpmn:laneSet>
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>Flow_0mpgr71</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:userTask id="Activity_0dzu7nw" name="Solicita encerramento de conta">
+      <bpmn:incoming>Flow_0mpgr71</bpmn:incoming>
+      <bpmn:outgoing>Flow_04y6kz8</bpmn:outgoing>
+    </bpmn:userTask>
+    <bpmn:exclusiveGateway id="Gateway_0avg8b1" name="Há item em estoque?">
+      <bpmn:incoming>Flow_04y6kz8</bpmn:incoming>
+      <bpmn:outgoing>Flow_1q1bmvr</bpmn:outgoing>
+      <bpmn:outgoing>Flow_1ka6kk9</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:endEvent id="Event_04zm94m" name="Encerra conta sem quebrar contrato">
+      <bpmn:incoming>Flow_1q1bmvr</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:serviceTask id="Activity_0vehsis" name="Calcula multa">
+      <bpmn:incoming>Flow_1ka6kk9</bpmn:incoming>
+      <bpmn:outgoing>Flow_1yel6oe</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="Flow_0mpgr71" sourceRef="StartEvent_1" targetRef="Activity_0dzu7nw" />
+    <bpmn:sequenceFlow id="Flow_04y6kz8" sourceRef="Activity_0dzu7nw" targetRef="Gateway_0avg8b1" />
+    <bpmn:sequenceFlow id="Flow_1q1bmvr" sourceRef="Gateway_0avg8b1" targetRef="Event_04zm94m" />
+    <bpmn:sequenceFlow id="Flow_1ka6kk9" name="Sim" sourceRef="Gateway_0avg8b1" targetRef="Activity_0vehsis" />
+    <bpmn:sequenceFlow id="Flow_1yel6oe" sourceRef="Activity_0vehsis" targetRef="Activity_0e8irm7" />
+    <bpmn:sequenceFlow id="Flow_0ngsw2m" sourceRef="Activity_0e8irm7" targetRef="Event_1lv28yk" />
+    <bpmn:serviceTask id="Activity_0e8irm7" name="Envia documentos de quebra de contrato ao usuário">
+      <bpmn:incoming>Flow_1yel6oe</bpmn:incoming>
+      <bpmn:outgoing>Flow_0ngsw2m</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:endEvent id="Event_1lv28yk" name="Encerra conta quebrando contrato">
+      <bpmn:incoming>Flow_0ngsw2m</bpmn:incoming>
+      <bpmn:errorEventDefinition id="ErrorEventDefinition_1kse31t" />
+    </bpmn:endEvent>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_01lkboz">
+      <bpmndi:BPMNShape id="Participant_058w4r3_di" bpmnElement="Participant_058w4r3" isHorizontal="true">
+        <dc:Bounds x="160" y="80" width="770" height="450" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_00vmdw2_di" bpmnElement="Lane_00vmdw2" isHorizontal="true">
+        <dc:Bounds x="190" y="80" width="740" height="225" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Lane_06z81eh_di" bpmnElement="Lane_06z81eh" isHorizontal="true">
+        <dc:Bounds x="190" y="305" width="740" height="225" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_0mpgr71_di" bpmnElement="Flow_0mpgr71">
+        <di:waypoint x="275" y="400" />
+        <di:waypoint x="330" y="400" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_04y6kz8_di" bpmnElement="Flow_04y6kz8">
+        <di:waypoint x="430" y="400" />
+        <di:waypoint x="505" y="400" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1q1bmvr_di" bpmnElement="Flow_1q1bmvr">
+        <di:waypoint x="555" y="400" />
+        <di:waypoint x="632" y="400" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1ka6kk9_di" bpmnElement="Flow_1ka6kk9">
+        <di:waypoint x="530" y="375" />
+        <di:waypoint x="530" y="230" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="536" y="333" width="19" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_1yel6oe_di" bpmnElement="Flow_1yel6oe">
+        <di:waypoint x="580" y="190" />
+        <di:waypoint x="640" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="Flow_0ngsw2m_di" bpmnElement="Flow_0ngsw2m">
+        <di:waypoint x="740" y="190" />
+        <di:waypoint x="812" y="190" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="239" y="382" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_06rsf8q_di" bpmnElement="Activity_0dzu7nw">
+        <dc:Bounds x="330" y="360" width="100" height="80" />
+        <bpmndi:BPMNLabel />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Gateway_0avg8b1_di" bpmnElement="Gateway_0avg8b1" isMarkerVisible="true">
+        <dc:Bounds x="505" y="375" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="501" y="435" width="57" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_14jh0f4_di" bpmnElement="Event_04zm94m">
+        <dc:Bounds x="632" y="382" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="616" y="425" width="69" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_0ip42x7_di" bpmnElement="Activity_0vehsis">
+        <dc:Bounds x="480" y="150" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_10mwb9u_di" bpmnElement="Activity_0e8irm7">
+        <dc:Bounds x="640" y="150" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1b5iwzo_di" bpmnElement="Event_1lv28yk">
+        <dc:Bounds x="812" y="172" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="796" y="215" width="69" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
