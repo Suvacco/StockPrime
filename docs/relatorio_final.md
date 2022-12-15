@@ -197,9 +197,7 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 ### 4.2. Tecnologias
 
-Utilizaremos o Framework Bootstrap para a codificação em HTML e CSS do front-end. Já para o back-end estaremos utilizando o JavaScript em Node.js e o SGBD MySQL para armazenamento de dados. Para IDE utilizaremos o Visual Studio Code e para modelagem do banco de dados utilizaremos o MySQL Workbench. A medida que o desenvolvimento do projeto crescer estaremos adicionando aqui mais tecnologias.
-
-Descreva qual(is) tecnologias você vai usar para resolver o seu problema, ou seja implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas. Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
+Utilizamos o Camunda Modeler para descrever todos os processos necessários. Em seguida fizemos uso do Balsamiq Mockups para ter um esboço das telas juntamente do Figma para criar um protótipo. Ao inicio do desenvolvimento utilizamos o Git para versionamento, no entanto, passamos a utilizar o GitHub Desktop por ter uma interface mais amigavel. Para o banco de dados, inicialmente nós utilizamos o MySQL Server em um servidor hospedado na Azure, entretanto, passamos a utilizar o MongoDB pela facilidade e praticidade oferecida. O editor de texto escolhido foi o Visual Studio Code, utilizamos-o para editar o nosso projeto baseado em Node.js. O banco de dados foi hospedado no MongoDB Atlas e utilizamos o Compass para gerencia-lo. As seguintes bibliotecas, frameworks e linguaguens foram utilizadas: JavaScript, EJS, HTML, CSS, Bootstrap, Express.js, Mongoose, Body-Parser, Passport, FontAwesome, GoogleFonts, DotEnv. Para fazer deploy do projeto finalizado utilizamos o Render, mas por oferecer uma maior eficacia passamos a utilizar o Railway.
 
 ## 5. Modelo de dados
 
