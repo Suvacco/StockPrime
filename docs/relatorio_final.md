@@ -33,43 +33,39 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Escrever aqui o resumo. O resumo deve contextualizar rapidamente o trabalho, descrever seu objetivo e, ao final, 
-mostrar algum resultado relevante do trabalho (até 10 linhas)._
-
----
-
+_**Resumo**. Durante a abertura de novos negocios, desde uma startup até uma padaria, é preciso pensar de antemão todas as dependencias tecnologicas, principalmente as que envolvem software. Em caso de estocagem, é preciso comprar a licensa de um software capaz de realizar qualquer tipo de necessidade do negocio, no entanto, o custo para a aquisição dessa tecnologia em muitas vezes é muito superior ao limite do orçamento. O objetivo da StockPrime é ser um software de gerenciamento de estoque gratuito que atenda a necessidade das empresas pequenas com baixo poder aquisitivo. Ao final do desenvolvimento, foi observado que o software é capaz de atender todas os requisitos basicos de um sistema de estocagem, sendo capaz de cadastrar novos itens, adicionar, remover e registrar todas as saidas e entradas do usuário.  
 
 ## 1. Introdução
 
-Em uma indústria onde é preciso gerenciar centenas de contratempos, imprevistos, lucros, perdas e transportes, concentrar toda a informação em um único lugar minimiza todas essas dificuldades. O StockPrime visa criar uma interface de controle de estoques que ajude corporações a terem um melhor gerenciamento de matérias-primas, projetando despesas e cruzando informações para maximizar o lucro. 
+O StockPrime é uma interface de controle de estoques gratuita direcionada à pequenas corporações afim de proporcionar a melhor experiencia de gerenciamento de estoque possivel.
 
     1.1 Contextualização
 
-A indústria do setor secundário enfrenta diariamente um número incontável de variáveis que afetam diferentes áreas do ramo, seja positivamente como negativamente. Portanto, centenas de corporações investem em sistemas de gerenciamento que visam otimizar os processos e controlar o fluxo de mercadorias nas entradas e saídas. A final, o monitoramento incorreto e não projetado pode ocasionar em prejuízos comerciais, como o sobrestoque ou a falta de insumos e por consequência a instabilidade econômica da corporação, colocando-a em uma situação de controle de danos.
+A estocagem é um sistema que enfrenta diariamente um número incontável de variáveis que afetam diretamente na eficiencia da mesma. Portanto, centenas de corporações investem milhões por ano em sistemas de gerenciamento de estoque que visam otimizar os processos e controlar o fluxo de mercadorias nas entradas e saídas.
 
     1.2 Problema
 
-É comum casos onde empresas encontram dificuldades em controlar seus estoques, principalmente em situações onde essas empresas atuam tanto por meio de lojas físicas como por lojas virtuais - fato que vêm se tornando cada vez mais habitual devido ao avanço tecnológico e aumento da demanda da possibilidade de comprar online - , assim causando problemas devido à atualização de estoque em tempo real em relação à venda simultânea do mesmo produto por ambos meios digitais e físicos. 
+É comum casos onde empresas encontram dificuldades em controlar seus estoques, principalmente em situações onde essas empresas não possuem um metodo eficaz de realizar todas as tarefas de estocagem. Esse fato é proporcionado devido ao alto custo de licensiamento de softwares de gerenciamento.
 
     1.3 Objetivo geral
 
-A StockPrime tem como objetivo geral facilitar controles de estoque, melhorar a gestão do inventário do usuário e intermediar relações com terceiros.
+Desenvolver um software para gerencia de estoque gratuito direcionado a empresas com baixo orçamento e que atenda todas as necessidades básicas do usuário.
 
     1.3.1 Objetivos específicos
 
-Gestão Econômica: Para minimizar custos e prejuizos, temos como objetivo o fornecimento constante de uma avaliação da situação financeira atual do cliente. Sendo assim, o usuário terá acesso à um resumo contendo seus custos, entradas, saídas, receitas e projeções de possíveis prejuízos.
+Interface de Estoque: Para maior controle do gerenciamento, temos como objetivo desenvolver uma interface para exibir ao usuário todos os objetos presentes em seu estoque assim como cadastrar, adicionar, remover ou reestocar um item desejado de forma facil e rápida através dos menus simplificados.
 
-Automatização de Restoque: A fim de melhorar a eficiência do processo de reestoque, a StockPrime visa intermediar as relações entre os fornecedores e os clientes. Dessa forma, o inventário sempre estará disponível para retirada de produtos e o reestoque mediante ao consumo do mesmo; 
+Pedidos de Reestoque: A fim de melhorar a experiência de usuário durante o processo de reestoque, deverá ser integrado à interface do StockPrime uma aba "Pedidos" afim de proporcionar ao usuário um maior acompanhamento do seu pedido de reestoque uma vez que feito no menu simplicado.
 
-Controle de Estoque: Registro de entradas e saídas de produtos no estoque do usuário. Tem como objetivo proporcionar um controle preciso da disponibilidade do conteúdo, catalogando entradas e saídas para fornecer uma gestão controlada.
+Acompanhamento de Estoque: Registro de entradas e saídas de produtos no estoque do usuário. Tem como objetivo proporcionar um controle preciso da disponibilidade do conteúdo, catalogando entradas e saídas para fornecer uma gestão controlada.
 
     1.4 Justificativas
 
-A ascensão econômica da corporação cliente é o foco principal da StockPrime. Sendo assim, uma gestão ecônomica que integra inúmeras variáveis em um só local e cria projeções de possiveis prejuizos compõem a combinação perfeita para a maximização do lucro corporativo. Não só isso como a gestão precisa do controle de estoque exerce uma função crucial na otimização da gestão do inventário, prevenindo a perda de investimentos com fornecimento desnecessário.
+A ascensão econômica da corporação e do cliente é o foco principal do desenvolvimento desse projeto. Sendo assim, uma gestão eficiente que integra inúmeras variáveis em um só local compõe a combinação perfeita para a maximização do lucro corporativo.
 
 ## 2. Participantes do processo
 
-Os participantes do projeto são as empresas cujo não possuem um sistema de controle de estoque, a central de controle de estoque, fornecedores e transportadoras.
+Os participantes do projeto são as empresas cujo não possuem um sistema de controle de estoque automatizado, fornecedores e transportadoras.
 
 - Fornecedores
 
@@ -77,31 +73,27 @@ O fornecedor tem como função receber solicitações de reestoque e realizar to
 
 - Solicitante
 
-Os solicitantes são os clientes da StockPrime que desejam adicionar, fazer retiradas ou reestocar o seu inventário.
+Os solicitantes são os usuários do StockPrime que desejam adicionar, fazer retiradas ou reestocar o seu inventário.
 
 - Transportadora
 
 O trabalho da transportadora é levar o produto do fornecedor até o cliente, sendo responsável pela integridade do produto durante o percurso, disponibilizar recursos caso existam necessidades especiais no transporte e notificar os outros participantes a respeito de qualquer atualização no processo.
 
-- Controle de Estoque
-
-É a parte responsável pelas intermediações entre os outros participantes do processo e administrador da gestão de estoque.
-
 ## 3. Modelagem do processo de negócio
 
 ## 3.1. Análise da situação atual
 
-Os atuais sistemas inteligentes que fazem a gestão de estoque utilizam da comunicação entre diversos setores para garantir o bom funcionamento dos processos, buscando maximizar a otimização. No entanto, existem ínviduos - majoritariamente pequenas empresas - que não vêem necessidades em automatizar o seu trabalho, portanto, realizam toda a administração manualmente. Consequentemente, os mesmos tornam-se suscetíveis a falhas catastróficas e prejuízos imensuráveis caso exista uma inconsistência ou um problema com o sistema.
+Os grandes sistemas inteligentes que fazem gestão de estoque utilizam da comunicação entre diversos setores para garantir o bom funcionamento dos processos, buscando maximizar a otimização. No entanto, existem ínviduos - majoritariamente pequenas empresas - que não vêem necessidades de utilizar todo o potencial desses tipos de software, portanto, realizam toda a administração manualmente devido ao alto custo de licensiamento. Consequentemente, os mesmos tornam-se suscetíveis a falhas catastróficas e prejuízos imensuráveis caso exista uma inconsistência ou um problema com a gestão.
 
 ## 3.2. Descrição Geral da proposta
 
-A proposta da StockPrime é desenvolver um sistema que faça um gerenciamento eficaz de estoques, provendo acesso à gestão e acompanhamento em tempo real, automatização de reestoque, finanças e monitoramento de entradas e retiradas.
+A proposta da StockPrime é desenvolver um sistema que possibilite um gerenciamento eficaz de estoques provendo acesso à gestão gratuito, acompanhamento em tempo real, reestoque simplificado e monitoramento de entradas, retiradas e cadastros.
 
 ## 3.3. Modelagem dos Processos
 
 ### 3.3.1 Processo de Requisição e Formalização do Contrato
 
-O processo de requisição e formalização do contrato garante que a Stockprime forneça o produto da forma correta e que o cliente não abuse das normas imposta pela nossa empresa. O subprocesso diz sobre os processos que devem seguir para verificar se o CNPJ é válido para o fechamento do contrato. ![CONTRATOBPMN](https://user-images.githubusercontent.com/21000046/197075828-4219e5c6-7daa-4c12-81ed-d77edc265579.png)
+O processo de requisição e formalização do contrato garante que a StockPrime forneça o produto da forma correta e que o cliente não abuse das normas imposta pela nossa empresa. O subprocesso diz sobre os processos que devem seguir para verificar se o CNPJ é válido para o fechamento do contrato. ![CONTRATOBPMN](https://user-images.githubusercontent.com/21000046/197075828-4219e5c6-7daa-4c12-81ed-d77edc265579.png)
 
 ### 3.3.2 Processo de Fornecimento
 
