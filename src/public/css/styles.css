@@ -1,0 +1,220 @@
+
+/* Boxes */
+
+.box {
+    width: 20%;
+    height: 20%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #2B46A8;
+    border-radius: 5%;
+    margin: 10% auto 0 auto;
+}
+
+.error {
+    border-color: crimson;
+}
+
+.success {
+    border-color: rgb(16, 175, 16);
+}
+
+.register {
+    margin: 4% auto 0 auto;
+}
+
+.item-register {
+    padding: 1%;
+}
+
+.box-content {
+    text-align: center;
+    margin: 5% auto 5%;
+}
+
+.credentials-form {
+    margin: 0 10%;
+}
+
+/* Navbar */
+
+.navbar {
+    background-color: #2B46A8;
+    font-size: 1.5rem;
+}
+
+.nav-logo {
+    max-width: 15%;
+    max-height: 15%;
+}
+
+.navbar-toggler {
+    background-color: white;
+    color: #5872dc;
+}
+
+/* Icons */
+
+.icon {
+    font-size: 3rem;
+}
+
+.error h1, .error-icon {
+    color: crimson;
+}
+
+.success h1, .success-icon {
+    color: rgb(16, 175, 16);
+}
+
+.item-register-icon {
+    color: #2B46A8;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+/* Text and Titles */
+
+.item-register h1 {
+    color: #2B46A8;
+    margin-bottom: 8%;
+}
+
+.success h4, .error h4 {
+    margin: 10% 0;
+}
+
+/* Btns */
+
+.standard-btn {
+    border-color: #2B46A8;
+    color: #2B46A8;
+}
+
+.standard-btn:hover {
+    background-color: #2B46A8;
+    color: white;
+}
+
+.confirm-btn {
+    border-color: #2B46A8;
+    background-color: #2B46A8;
+    color: white;
+    margin: 8% 0 8%;
+    float: left;
+}
+
+.confirm-btn:hover {
+    background-color: white;
+    color: #2B46A8;
+    border-color: #2B46A8;
+}
+
+.error-btn {
+    border-color: crimson;
+    color: crimson;
+}
+
+.error-btn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.success-btn {
+    border-color: rgb(16, 175, 16);
+    color: rgb(16, 175, 16);
+}
+
+.success-btn:hover {
+    background-color: rgb(16, 175, 16);
+    color: white;
+}
+
+.cancel-btn {
+    margin-top: 8%;
+    margin-bottom: 8%;
+    border-color: #2B46A8;
+    color: #2B46A8;
+}
+
+.cancel-btn:hover {
+    background-color: #2B46A8;
+    color: white;
+}
+
+.edit-btn {
+    border-radius: 100%;
+    border-color: gray;
+    color: white;
+    font-size: 0.5rem;
+    text-align: center;
+}
+
+.edit-btn:hover {
+    border-color: white;
+}
+
+.remove {
+    background-color: crimson;
+}
+
+.add {
+    background-color: rgb(16, 175, 16);
+}
+
+.restock {
+    background-color: #2B46A8;
+}
+
+.credentials-btn {
+    margin-top: 15%;
+}
+
+.table-header {
+    margin: 3% 1% 2% 0;
+}
+
+/* General Pourpose */
+
+.color-blue {
+    color: #2B46A8;
+}
+
+.logo-img {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+}
+
+.edit-form {
+    display: inline;
+}
+
+.table {
+    width: 100%;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.low-stock {
+    color: orange;
+}
+
+.no-stock {
+    color: crimson;
+}
+
+.multa {
+    margin: 10% 0;
+}
+
+#home {
+    padding-left: 10%;
+    padding-right: 10%;
+}
