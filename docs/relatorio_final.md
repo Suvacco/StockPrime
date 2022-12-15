@@ -99,7 +99,7 @@ O processo de requisição e formalização do contrato pertence à parte de cad
 ### 3.3.2 Processo de Fornecimento
 
 O processo de fornecimento retrata todos os passos que ocorrem para que um determinado produto seja transportado até o usuário. As raias descrevem "Transportadora" e "Usuário" como peças centrais no processo. 
-![Processo de Fornecimento](https://user-images.githubusercontent.com/21000046/207984285-43a98005-411d-4139-ac34-1c3b247ec75d.png)
+![Processo de Fornecimento](https://user-images.githubusercontent.com/21000046/207985666-4a938969-13c9-410a-895d-50a43a8c0928.png)
 
 ### 3.3.3 Processo de Reestoque
 
