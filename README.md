@@ -20,13 +20,13 @@ O projeto consiste em desenvolver uma solução para de controle de estoque. Sen
 
 ## Instruções de utilização
 
-Instalar o Node.js
-Clonar a pasta "src" do repositório
-Executar o comando "npm i nodemon"
-Executar o comando "npm i" na root do clone
-Configurar a variavel da função app.listen no arquivo "app.js" para a porta desejada
-Executar o comando "nodemon app.js"
-Digitar no navegador o ip localhost e a porta inserida
+- Instalar o Node.js
+- Clonar a pasta "src" do repositório
+- Executar o comando "npm i nodemon"
+- Executar o comando "npm i" na root do clone
+- Configurar a variavel da função app.listen no arquivo "app.js" para a porta desejada
+- Executar o comando "nodemon app.js"
+- Digitar no navegador o ip localhost e a porta inserida
 
 ## Histórico de versões
 
