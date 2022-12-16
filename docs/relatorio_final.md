@@ -199,9 +199,11 @@ Descrever aqui cada uma das propriedades das atividades de cada um dos processos
 
 Utilizamos o Camunda Modeler para descrever todos os processos necessários. Em seguida fizemos uso do Balsamiq Mockups para ter um esboço das telas juntamente do Figma para criar um protótipo. Ao inicio do desenvolvimento utilizamos o Git para versionamento, no entanto, passamos a utilizar o GitHub Desktop por ter uma interface mais amigavel. Para o banco de dados, inicialmente nós utilizamos o MySQL Server em um servidor hospedado na Azure, entretanto, passamos a utilizar o MongoDB pela facilidade e praticidade oferecida. O editor de texto escolhido foi o Visual Studio Code, utilizamos-o para editar o nosso projeto baseado em Node.js. O banco de dados foi hospedado no MongoDB Atlas e utilizamos o Compass para gerencia-lo. As seguintes bibliotecas, frameworks e linguaguens foram utilizadas: JavaScript, EJS, HTML, CSS, Bootstrap, Express.js, Mongoose, Body-Parser, Passport, FontAwesome, GoogleFonts, DotEnv. Para fazer deploy do projeto finalizado utilizamos o Render, mas por oferecer uma maior eficacia passamos a utilizar o Railway.
 
+![Diagrama](https://user-images.githubusercontent.com/21000046/207989077-f4c5516c-515c-4a85-b799-0e4bcceabaa4.png)
+
 ## 5. Modelo de dados
 
-![Diagrama](https://user-images.githubusercontent.com/21000046/204168310-faa7890e-b5ae-41c3-adc7-38ca4490d0d6.png)
+![Diagrama Modelo de Dados](https://user-images.githubusercontent.com/21000046/207989173-21329cff-b6af-4233-8c85-b228570b61f8.png)
 
 ## 6. Indicadores de desempenho
 
@@ -219,18 +221,39 @@ Obs.: todas as informações para gerar os indicadores devem estar no diagrama d
 
 ## 7. Sistema desenvolvido
 
-Faça aqui uma breve descrição do software e coloque as principais telas com uma explicação de como usar cada uma.
+O StockPrime é um aplicativo web desenvolvido com o propósito de oferecer gerenciamento de estoque básico e simplificado
+
+![Login](https://user-images.githubusercontent.com/21000046/207989656-1b95a90d-421a-4be8-86c5-5708affa890e.png)
+
+Na tela de login o usuário deve inserir o cnpj e a senha cadastrada ou se não possuir uma conta ainda deve clicar em "Clique aqui!" para se cadastrar
+
+![Cadastro](https://user-images.githubusercontent.com/21000046/207989666-5fc297dc-9569-464c-98b9-54a40a817002.png)
+
+Na tela de cadastro o usuário deve inserir os dados empresariais desejados, o seu cnpj e escolher uma senha que será utilizada no login
+
+![HomePage](https://user-images.githubusercontent.com/21000046/207989677-564bfdeb-66f9-4f1e-9048-ffa96730df0f.png)
+
+Após se logar, o usuário é direcionado à home page. Em seguida o usuário pode tomar 3 ações diferentes: editar o item no estoque caso já exista algum, adicionando, removendo ou reestocando o item, cadastrar um novo item clicando em "Novo Item" ou navegar entre as páginas clicando nas três barras no canto superior direito.
+
+![Pedidos](https://user-images.githubusercontent.com/21000046/207989681-aae121bf-5376-4145-91b0-963a190642d1.png)
+
+Na pagina de pedidos o usuário pode visualizar todos os pedidos de reestoque feitos anteriormente, o seu status, o item em questão e a quantidade solicitada. Ele também pode retornar para outras páginas navegando pelo menu das três barras no canto superior direito.
+
+![Logs](https://user-images.githubusercontent.com/21000046/207989683-f485b2e5-89dc-40af-b4d9-f359bdf373a7.png)
+
+Na pagina de logs o usuário pode ver todas as ações tomadas anteriormente que impactam no seu estoque e acompanhar todos os valores relacionados a ela. Ele também pode retornar para outras páginas navegando pelo menu das três barras no canto superior direito.
+
+![Shutdown](https://user-images.githubusercontent.com/21000046/207989684-8cb1d233-7ccf-417b-a967-393ad023358f.png)
+
+Na pagina de encerramento de conta o usuário pode escolher entre encerrar sua conta e pagar uma multa ou cancelar a ação e manter seu contrato ativo com a StockPrime.
 
 ## 7.1. Tela Inicial
 
-Tela inicial do projeto, onde é disponibilizado uma breve informação sobre ele assim como também a possibilidade de se registrar (no botão "SE TORNE UMA EMPRESA AFILIADA") ou - caso já membro - a possibilidade de logar-se e seguir para próximas páginas. 
-
-[Untitled.pdf](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-stockprime/files/9834683/Untitled.pdf)
-
+![StockPrime Home](https://user-images.githubusercontent.com/21000046/207989360-e1e21986-f830-4705-bd98-eafec0881432.png)
 
 ## 8. Conclusão
 
-Apresente aqui a conclusão do seu trabalho. Discussão dos resultados obtidos no trabalho, onde se verifica as observações pessoais de cada aluno. Poderá também apresentar sugestões de novas linhas de estudo.
+Conseguimos implementar o objetivo almejado com sucesso. O StockPrime foi desenvolvido com o principal público em mente sendo as pequenas empresas que não possuem grandes orçamentos para licensiar softwares de gestão de estoque. Implementamos funcionalidades básicas condicionadas ao fato do sistema ser distribuído gratuitamente. 
 
 # REFERÊNCIAS
 
@@ -252,14 +275,13 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 **[1.5]** - _RUSSELL, Stuart J.; NORVIG, Peter. **Inteligência artificial**. Rio de Janeiro: Elsevier, c2013. xxi, 988 p. ISBN 9788535237016._
 
 
-
 # APÊNDICES
 
 **Colocar link:**
 
-Do código (armazenado no repositório);
+[Do código (armazenado no repositório);](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-stockprime/tree/master/src)
 
-Dos artefatos (armazenado do repositório);
+[Dos artefatos (armazenado do repositório);](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-stockprime/tree/master/assets)
 
 Da apresentação final (armazenado no repositório);
 
