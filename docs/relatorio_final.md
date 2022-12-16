@@ -217,8 +217,7 @@ Usar o seguinte modelo:
 | Taxa de movimentação de pedidos por semana | Manter conhecimento e controle sobre a média de pedidos feitos durante o período de uma semana | Realiza a média de pedidos feitos no período de uma semana |   | Tabela Pedidos | Clientes |
 | Taxa de pedidos danificados por empresa | Identificar e melhorar os processos que ocasionaram o dano | Calcula quantos porcento de pedidos entregues foram danificados em cima do total de pedidos feitos | [Percentual = (100 * NpedidosDanificados) / NtotalPedidos](https://latex.codecogs.com/svg.latex?{Percentual%20=%20\frac{(100%20*%20NpedidosDanificados)}{NtotalPedidos}}) | Tabela danos | Cliente |
 | Taxa de Alerta para Estoque | Indicar o item que possui uma porcentagem de estoque menor que a de alerta | É feito uma condição onde se o valor da porcentagem atual de estoque for menor que o valor de alerta é retornado true | Alerta = PorcentagemAtual < PorcentagemAlerta | Tabela Cliente | Cliente |
-
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe **a ser proposto**
+| Número de atualizações de estoque realizadas | Essa métrica avalia a eficiência do projeto de controle de estoque na atualização do estoque. | É analisado quantos logs de ações de usuário são feitas no estoque. Quanto maior o número de atualizações, melhor. | Somatorio de todos os logs de usuário baseado no tipo da ação | Tabela de Clientes | Cliente | 
 
 ## 7. Sistema desenvolvido
 
