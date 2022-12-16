@@ -33,7 +33,8 @@ _Instituto de Informática e Ciências Exatas – Pontifícia Universidade de Mi
 
 ---
 
-_**Resumo**. Durante a abertura de novos negocios, desde uma startup até uma padaria, é preciso pensar de antemão todas as dependencias tecnologicas, principalmente as que envolvem software. Em caso de estocagem, é preciso comprar a licensa de um software capaz de realizar qualquer tipo de necessidade do negocio, no entanto, o custo para a aquisição dessa tecnologia em muitas vezes é muito superior ao limite do orçamento. O objetivo da StockPrime é ser um software de gerenciamento de estoque gratuito que atenda a necessidade das empresas pequenas com baixo poder aquisitivo. Ao final do desenvolvimento, foi observado que o software é capaz de atender todas os requisitos basicos de um sistema de estocagem, sendo capaz de cadastrar novos itens, adicionar, remover e registrar todas as saidas e entradas do usuário.  
+**Resumo**
+Durante a abertura de novos negocios, desde uma startup até uma padaria, é preciso pensar de antemão todas as dependencias tecnologicas, principalmente as que envolvem software. Em caso de estocagem, é preciso comprar a licensa de um software capaz de realizar qualquer tipo de necessidade do negocio, no entanto, o custo para a aquisição dessa tecnologia em muitas vezes é muito superior ao limite do orçamento. O objetivo da StockPrime é ser um software de gerenciamento de estoque gratuito que atenda a necessidade das empresas pequenas com baixo poder aquisitivo. Ao final do desenvolvimento, foi observado que o software é capaz de atender todas os requisitos basicos de um sistema de estocagem, sendo capaz de cadastrar novos itens, adicionar, remover e registrar todas as saidas e entradas do usuário.  
 
 ## 1. Introdução
 
