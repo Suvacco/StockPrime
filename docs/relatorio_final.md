@@ -253,7 +253,7 @@ Na pagina de encerramento de conta o usuário pode escolher entre encerrar sua c
 
 ## 8. Conclusão
 
-Conseguimos implementar o objetivo almejado com sucesso. O StockPrime foi desenvolvido com o principal público em mente sendo as pequenas empresas que não possuem grandes orçamentos para licensiar softwares de gestão de estoque. Implementamos funcionalidades básicas condicionadas ao fato do sistema ser distribuído gratuitamente. 
+Conseguimos implementar o objetivo almejado com sucesso, o StockPrime foi desenvolvido com o principal público em mente sendo as pequenas empresas que não possuem grandes orçamentos para licenciar softwares de gestão de estoque. Implementamos funcionalidades básicas condicionadas ao fato do sistema ser distribuído gratuitamente. Concluímos que o uso de um software de gerenciamento de estoque pode oferecer uma solução eficaz para o gerenciamento de inventário. O software pode ajudar as empresas a otimizar o processo de controle de estoque, eliminando a necessidade de manter um inventário manual complexo. O software também pode proporcionar acesso a informações precisas sobre o inventário, permitindo que as empresas tomem decisões informadas. Além disso, o software aumenta a eficiência operacional e reduz os custos da empresa. Portanto, recomendamos o uso de um software de gerenciamento de estoque para melhorar o gerenciamento de inventário. 
 
 # REFERÊNCIAS
 
