@@ -283,9 +283,7 @@ http://www.pucminas.br/imagedb/documento/DOC\_DSC\_NOME\_ARQUI20160217102425.pdf
 
 [Dos artefatos (armazenado do repositório);](https://github.com/ICEI-PUC-Minas-PPLES-TI/plf-es-2022-2-ti2-0924100-stockprime/tree/master/assets)
 
-Da apresentação final (armazenado no repositório);
-
-Do vídeo de apresentação (armazenado no repositório).
+[Do vídeo de apresentação (armazenado no repositório).](https://www.youtube.com/watch?v=FDQIl9fjVO4)
 
 
 
